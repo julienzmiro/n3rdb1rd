@@ -1,0 +1,10 @@
+p
+	| Here are some case studies of projects that I have been working on. If you want more sample of my work, 
+	a(href="http://www.n3rdb1rd.com/contact", title="Contact") just ask
+	| .
+- for (var i in work)
+	a(href="/portfolio/" + work[i].path, title=work[i].title, id="thumb-" + work[i].cssId).portfolioThumb
+		div.portfolioThumbVisu
+			- var thumb = work[i].thumb
+			!= thumb
+		p.portfolioThumbTitle= work[i].title

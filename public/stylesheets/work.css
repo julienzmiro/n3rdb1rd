@@ -1,0 +1,597 @@
+body {
+  text-shadow: none;
+  filter: dropshadow(color=#000000, offx=0, offy=0);
+  padding-top : 5%;
+}
+hr {
+  display : none;
+}
+#content {
+  background: #fff;
+  padding-bottom: 60px;
+  padding: 0px;
+  -webkit-box-shadow:  0px 1px 6px 3px rgba(0, 0, 0, 0.15);
+  box-shadow:  0px 1px 6px 3px rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  margin-top: 0;
+}
+.workContainer {
+  padding: 35px 60px 60px 60px;
+}
+.workContainer img {
+  margin: 45px 0 5px 0;
+}
+.workContainer p {
+  margin: 25px 0 5px 0;
+}
+.workContainer .definition {
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0px 0 15px 0;
+  color: #939393;
+}
+#container {
+  padding-top: 0;
+  width: 90%;
+}
+footer {
+  width: 90%;
+  max-width: 960px;
+  text-align: left;
+  margin: 20px 0 0 0;
+}
+article.work {
+  margin-bottom: 0;
+}
+h1#workTitle {
+  font-size : 70px;
+  line-height : 70px;
+  margin : 80px auto 0 auto;
+  text-align: center;
+  font-family: "cubanoregular", Verdana, sans-serif;
+}
+p.workMeta {
+  margin: 10px auto 40px auto;
+  font-style: italic;
+  font-size: 16px;
+  color: #9e9e9e;
+}
+#mainNav {
+  width : 100%;
+  height : 65px;
+  text-align : left;
+  position : fixed;
+  background : rgba(18, 19, 19, 0.9);
+  left : 0;
+  top : 0;
+  margin-top : 0;
+  opacity : 0.85;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  z-index : 850;
+}
+#mainNav:hover {
+  opacity : 1;
+}
+#mainNav #mainNavContainer {
+  width: 90%;
+  max-width: 960px;
+  text-align: center;
+  margin: 0 auto;
+}
+#mainNav a {
+  display : inline;
+  line-height : 70px;
+  background : none;
+  text-shadow: none;
+  filter: dropshadow(color=#000000, offx=0, offy=0);
+  color : #b9b9b9;
+  padding : 0;
+  margin : 0 0 0 15px;
+  font-size : 16px;
+}
+#mainNav a:hover {
+  color : #fff;
+}
+#mainNav #logo a {
+  margin-left: 5px;
+}
+#mainNav h1 {
+  text-align : left;
+  margin : 0;
+  padding : 0 0 0 45px;
+  background : url("../images/logo-small.png") -6px 5px no-repeat;
+  display : block;
+  width : 70px;
+  float : left;
+}
+#mainNav #mainNavLinks {
+  float: right;
+}
+#mainNav a.current {
+  border-right : 2px solid transparent;
+  border-bottom : 1px dashed #fff;
+  color : #fff;
+}
+#mainNav .mainNavLink:hover,
+#mainNav .mainNavLink.current:hover {
+  border-right : 2px solid transparent;
+  background : transparent;
+}
+
+section {
+  margin-left : 0;
+  width : 100%;
+  max-width : 960px;
+}
+.work p {
+  margin: 10px 0 5px 0;
+}
+
+#workNav {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: bold;
+}
+#workNav a {
+  color: #646870;
+  border-bottom: 5px solid transparent;
+  margin-right: 15px;
+  opacity: 0.6;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+#workNav a.current {
+  border-bottom: 5px solid #646870;
+  opacity: 1;
+}
+#workNav a:hover {
+  opacity: 1;
+}
+
+.workContainer h3 {
+  margin-top: 75px;
+  font-size: 26px;
+}
+#container ul {
+  margin: 0px;
+}
+#container ul li {
+  margin-bottom: 0;
+}
+#container p.clearfix {
+  margin-top: 40px;
+}
+
+.work .floatL {
+  float: left;
+  margin-right: 5%;
+}
+.work .floatR {
+  float: right;
+  margin-left: 5%;
+}
+#container figure {
+  border: 1px solid #dedede;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#container figure img {
+  margin: 0;
+}
+figcaption {
+  font-size: 16px;
+  line-height: 20px;
+  font-style: italic;
+  text-align: center;
+  background: #f6f6f6;
+  padding: 15px 5%;
+}
+
+#workFreelanceFooter,
+.workFreelanceFooter {
+  font-style: italic;
+}
+
+::-moz-selection { background: #333; color: #fff; text-shadow: none; }
+::selection { background: #333; color: #fff; text-shadow: none; }
+
+/*********************************
+Designing a better upload experience at Photobox
+*********************************/
+body#workUploadPhotobox {
+  color : #333;
+  background: rgb(221,221,221) url("../../images/portfolio/designing-a-better-user-experience-at-photobox/header.jpg") 50% 0 no-repeat;
+}
+#workUploadPhotobox h1#workTitle {
+  color: #646870;
+  margin-top: 135px;
+  text-shadow: 1px 2px 1px #333;
+  filter: dropshadow(color=#333, offx=1, offy=2);
+}
+
+#workUploadPhotobox #figProviderFilter {
+  max-width: 250px;
+}
+#workUploadPhotobox p {
+  margin: 25px 0 5px 0;
+}
+
+#workUploadPhotobox #gallery {
+  padding: 20px 0;
+}
+#workUploadPhotobox #gallery p {
+  margin-bottom: 0;
+}
+#workUploadPhotobox #gallery p + figure {
+  margin-top: 20px;
+}
+#workUploadPhotobox #gallery figure + p {
+  margin-top: 50px;
+}
+
+/*Loader*/
+#workUploadPhotobox #loaderVisuWrapper {
+  width: 100%;
+  height: 95px;
+  text-align: center;
+  position:relative;
+}
+#workUploadPhotobox #loaderVisu {
+  -webkit-box-shadow: inset 1px 1px 3px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 1px 1px 3px 2px rgba(0, 0, 0, 0.15);
+  background: #eee;
+  width: 250px;
+  height: 20px;
+  position: absolute;
+  top: 75px;
+  left: 50%;
+  margin-left: -125px;
+  border-radius: 3px;
+  border-top: 1px solid #aaa;
+  border-left: 1px solid #aaa;
+  border-bottom: 1px solid #afafaf;
+  border-right: 1px solid #afafaf;
+  padding: 2px;
+  overflow: hidden;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+#workUploadPhotobox #loaderVisuProgress {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    height:20px;
+    width:75px;
+    border-radius:3px;
+    background: #1a912b;
+}
+#workUploadPhotobox #loaderVisu:hover #loaderVisuProgress {
+  width: 250px;
+}
+
+/*********************************
+Prototyping a rich interaction app at Photobox
+*********************************/
+#workPrototypePhotobox {
+  background: #181b1d url('/images/portfolio/prototyping-a-rich-interaction-tool/header-bg.jpg') 0 0 repeat;
+  color: #353535;
+}
+#workPrototypePhotobox #container {
+  width: 100%;
+  max-width: 100%;
+  padding-bottom: 10px;
+}
+#workPrototypePhotobox #content {
+  -webkit-box-shadow:  none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background: #fff;
+  width: 100%;
+  max-width: 100%;
+  padding: 50px 0 20px;
+}
+#workPrototypePhotobox article.work,
+#workPrototypePhotobox header {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+#workPrototypePhotobox header {
+  color: #c2c2c2;
+  text-align: justify;
+}
+#workPrototypePhotobox footer {
+  width: 90%;
+  max-width: 960px;
+  margin: 15px auto 0;
+}
+#workPrototypePhotobox #workTitle {
+  color: #1d77bc;
+  font-size: 88px;
+  line-height: 84px;
+  margin-top: 10px;
+  text-align: center;
+}
+#workPrototypePhotobox .workMeta {
+  text-align: center;
+}
+#workPrototypePhotobox #workPrototypePhotoboxVisu {
+  position:relative;
+  height: 69px;
+  margin-top: 30px;
+}
+#workPrototypePhotobox #workPrototypePhotoboxVisu img {
+  position: absolute;
+  top: 0;
+}
+#workPrototypePhotobox #workPrototypePhotoboxVisu #workPrototypePbxGearLarge {
+  left: 50%;
+  margin-left: -54px;
+  animation-name: rotateR; 
+  animation-duration: 15s; 
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-name: rotateR; 
+  -webkit-animation-duration: 15s; 
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotateR; 
+  -moz-animation-duration: 15s; 
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -o-animation-name: rotateR; 
+  -o-animation-duration: 15s; 
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+}
+#workPrototypePhotobox #workPrototypePhotoboxVisu #workPrototypePbxGearSmall {
+  left: 50%;
+  margin-left: 20px;
+  top: 25%;
+  animation-name: rotateL; 
+  animation-duration: 15s; 
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-name: rotateL; 
+  -webkit-animation-duration: 15s; 
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotateL; 
+  -moz-animation-duration: 15s; 
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -o-animation-name: rotateL; 
+  -o-animation-duration: 15s; 
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+}
+@keyframes rotateR {
+  from {
+    transform: rotate(0deg);
+  }
+  to { 
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rotateR {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes rotateR {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to { 
+    -moz-transform: rotate(360deg);
+  }
+}
+@-o-keyframes rotateR {
+  from {
+    -o-transform: rotate(0deg);
+  }
+  to { 
+    -o-transform: rotate(360deg);
+  }
+}
+@keyframes rotateL {
+  from {
+    transform: rotate(360deg);
+  }
+  to { 
+    transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes rotateL {
+  from {
+    -webkit-transform: rotate(360deg);
+  }
+  to { 
+    -webkit-transform: rotate(0deg);
+  }
+}
+@-moz-keyframes rotateL {
+  from {
+    -moz-transform: rotate(360deg);
+  }
+  to { 
+    -moz-transform: rotate(0deg);
+  }
+}
+@-o-keyframes rotateL {
+  from {
+    -o-transform: rotate(360deg);
+  }
+  to { 
+    -o-transform: rotate(0deg);
+  }
+}
+
+#workPrototypePhotobox #container .prototypingAtPbxProtoBtn {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  margin: 40px auto;
+  background: #1d77bc;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  width: 340px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: background 0.7s;
+  -moz-transition: background 0.7s;
+  -o-transition: background 0.7s;
+  transition: background 0.7s;
+}
+#workPrototypePhotobox #container .prototypingAtPbxProtoBtn:hover {
+  background: #1566a4;
+}
+#workPrototypePhotobox h3 {
+  font-size: 24px;
+  line-height: 28px;
+  margin: 50px 0 10px;
+}
+#workPrototypePhotobox .work p {
+  margin: 15px 0 5px 0;
+  line-height: 28px;
+}
+#workPrototypePhotobox strong {
+  color: #353535;
+  font-weight: bold;
+}
+#workPrototypePhotobox .work a {
+  color: #1d77bc;
+}
+
+/*********************************
+Size upsell at Photobox
+*********************************/
+#workSizeUpsellPhotobox {
+  background: #d6d6d6 url("../../images/portfolio/product-size-upsell/bg.jpg") 50% 35px no-repeat;
+  color : #404142;
+  padding-top : 230px;
+}
+#workSizeUpsellPhotobox #workTitle {
+  font-size : 66px;
+  line-height : 46px;
+  margin-bottom : 15px;
+  color : #619912;
+}
+#workSizeUpsellPhotobox .workMeta {
+  color: #619912;
+  margin-bottom: 0;
+}
+#workSizeUpsellPhotobox #content {
+  background: transparent;
+  -webkit-box-shadow:  none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+#workSizeUpsellPhotobox #content strong {
+  color : #404142;
+  font-weight: bold;
+}
+#workSizeUpsellPhotobox h3 {
+  font-size: 24px;
+  line-height: 28px;
+  margin: 65px 0 10px;
+}
+#workSizeUpsellPhotobox .work p {
+  margin: 15px 0 5px 0;
+  line-height: 28px;
+}
+#workSizeUpsellPhotobox .work a {
+  color: #a11414;
+}
+#workSizeUpsellPhotobox #figConfPage {
+  max-width: 375px;
+  margin-top: 15px;
+}
+#workSizeUpsellPhotobox #figTicket {
+  max-width: 275px;
+  margin-top: 0;
+}
+#workSizeUpsellPhotobox #visuContainer {
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  background: #d6d6d6;
+  margin: 0 0 50px 0;
+  padding: 0;
+  position: relative;
+}
+#workSizeUpsellPhotobox #visuTrail {
+  width: 100%;
+  height: 16px;
+  background: #619912;
+  position: absolute;
+  top: 23px;
+}
+#workSizeUpsellPhotobox #visuCircle {
+  background: #619912;
+  border-radius: 999px;
+  width: 46px;
+  height: 46px;
+  margin: 0 0 0 -23px;
+  padding: 0;
+  border: 2px solid #d6d6d6;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+}
+#workSizeUpsellPhotobox #visuCircle:hover {
+  width: 50px;
+  height: 50px;
+  margin-left: -25px;
+  top: 3px;
+}
+#workSizeUpsellPhotobox #visuCircle:hover p {
+  line-height: 46px;
+  font-size: 45px;
+}
+#workSizeUpsellPhotobox #visuCircle p {
+  color: #d6d6d6;
+  font-weight: bold;
+  font-size: 39px;
+  line-height: 41px;
+  margin: 0 0 0 1px;
+  padding: 0;
+  font-family: "cubanoregular", Verdana, sans-serif;
+  cursor: default;
+}
+#workSizeUpsellPhotobox footer {
+  padding: 8px 20px 2px 20px;
+  background: #bebebe;
+  margin-top: 50px;
+  width: 100%;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}

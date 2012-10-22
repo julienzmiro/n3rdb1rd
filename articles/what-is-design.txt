@@ -1,0 +1,15 @@
+title: What is design ?
+date: 2012/02/04
+pinit: true
+>-------<
+Or more precisely what I mean when I talk about design.  
+Design is a conception process that is a part of almost every field in companies. For instance, when a developer choose a certain architecture for his program, it is a design choice.
+
+So if design is everywhere, where is the limit of the designer's work ?  
+I think that **a designer deals with decisions that have a direct impact on the user of a product.**  
+This is why the "user experience design" field is becoming more and more popular in companies. This title summarizes very well something that have always been very vague and difficult to define : the scope of a design team.
+
+Based on this definition, the user experience design involves a lot of skills (graphic design, information architecture, interaction design, copywriting, audio design,...). But also some less obvious decisions.  
+For instance, think about urls. They seem to be something very technical and indeed they involve some IT or SEO considerations. But designing a good url pattern may also be an user experience choice sometimes. Your users might directly handle urls of your website. Some of them might cut a part of an article url to directly access the category page of this article. Or they could add the username of a friend at the end of their own account url to go to their friend account page. If these behaviors are enough significant, it is important not to let your urls' patterns into the hands of IT or SEO only. The design considerations (so the users considerations) have to be involved in this process.
+
+So in order to define the boundary of the designer work, I think that we should always think in term of direct impact on the user.

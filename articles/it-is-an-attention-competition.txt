@@ -1,0 +1,15 @@
+title: It is an attention competition
+date: 2012/01/29
+pinit: true
+>-------<
+![It is an attention competition](/images/journal/attention-competition/attention-competition.png)  
+I remember [a video from a Charles E. Leiserson's course](http://video.google.com/videoplay?docid=-2333306016564732003 "a video from a Charles E. Leiserson's course") about computer programming.  
+Charles Leiserson asked his students what is more important than performance in computer programming. They answered a lot of things as "security", "simplicity", "stability", "features", "user-friendliness", "modularity", "maintainability",... at the end he asked them why is it still interesting to study about performance if all of these things are more important. No one answered and he told them that it is because implementing anything on this list would have a cost in term of "performance". So performance acts like a currency when developping softwares.
+
+I found this course amazing. And I found that this principle could fit to the design work very well. Of course, it is not about performance. **In design, I think that the "currency" is the user's attention.**
+
+Every element, every interaction, every feature that you will add in a product will have a cost in term of attention.  
+Imagine that you have a certain amount of attention from your user, and that every element of your product will scatter this attention.  
+Thinking this way helps you **to stay focused on the core of your product**, and makes you ask for every decision "Is it valuable to spend attention for that ?".
+
+This is an attention competition, and you always should keep this in mind when taking design decisions.

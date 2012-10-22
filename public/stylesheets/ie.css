@@ -1,0 +1,38 @@
+#logo {
+    text-align : right;
+    margin : 0 0 20px 0;
+    padding : 0;
+    width : 100px;
+}
+#logoLink {
+    display : block;
+    margin : 0;
+    padding : 0;
+    width : auto;
+    height : 125px;
+    background : transparent url('../images/logo.png')  right 0 no-repeat;
+    text-align : right;
+    line-height : 225px;
+    font-size : 20px;
+    text-decoration : none;
+    font-weight : normal;
+    color : #b9b9b9;
+    border-bottom : none;
+    -webkit-transition: color 0.5s ease-out;
+    -moz-transition: color 0.5s ease-out;
+    -o-transition: color 0.5s ease-out;
+    transition: color 0.5s ease-out;
+}
+a.mainNavLink {
+    width: 100px;
+    border-bottom: none;
+}
+.animScreen {
+    margin-left: 150px;
+}
+#homeScreen2 {
+    height: auto;
+}
+#homeScreen2 img {
+    position: static;
+}

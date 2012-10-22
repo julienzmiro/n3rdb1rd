@@ -1,0 +1,39 @@
+- if(emailSent === "true")
+  p.contactBlock#contactBlockEmailSent
+    img(src="/images/contact-email-sent-ico.png", alt="Your email has been sent !")
+- else if(emailSent != null && emailSent === "false")
+  p.contactBlock#contactBlockEmailNOK
+    img(src="/images/contact-email-problem-ico.png", alt="Your email has not been sent")
+    br
+    | Sorry but your message has not been sent. Try again, or contact me at 
+    a(href="mailto://julien.zmiro@gmail.com", title="Send me an email") julien.zmiro@gmail.com
+    | .
+p.contactLabel.first Do not hesitate to contact me by email :
+div.contactBlock.closed#contactBlockEmail
+  img(src="/images/contact-email-ico.png", alt="Contact me by email")
+  div
+    p
+      | Send me an email at 
+      a(href="mailto://julien.zmiro@gmail.com", title="Send me an email") julien.zmiro@gmail.com
+      |  or use the form below :
+    form(method="post", action="/contact")
+      fieldset
+        label(for="nameField") Your name :
+        input(type="text", name="name", required)#nameField
+        br
+        label(for="emailField") Your email :
+        input(type="email", placeholder="email@domain.com", name="email", required)#emailField
+        br
+        label(for="messageField") Your message :
+        textarea(name="msg", required)#messageField
+        br
+        input(type="submit", value="Send this message")
+p.contactLabel You can also find me on :
+a(href="http://www.twitter.com/zmiro", title="Find me on Twitter").contactBlock.first#contactBlockTwitter
+  img(src="/images/contact-twitter-ico.png", alt="Twitter")
+a(href="http://www.dribbble.com/zmiro", title="My shots on Dribbbles").contactBlock#contactBlockDribbble
+  img(src="/images/contact-dribbble-ico.png", alt="Dribbble")
+a(href="http://www.behance.com/julienzmiro", title="My portfolio on Behance").contactBlock#contactBlockBehance
+  img(src="/images/contact-behance-ico.png", alt="Behance")
+a(href="http://www.linkedin.com/in/julienzmiro", title="My LinkedIn profile").contactBlock.last#contactBlockLinkedin
+  img(src="/images/contact-linkedin-ico.png", alt="LinkedIn")

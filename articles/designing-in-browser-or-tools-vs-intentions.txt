@@ -1,0 +1,36 @@
+title: Designing in browser, or tools vs intentions
+date: 2012/03/22
+pinit: false
+>-------< 
+![Design in browser](/images/journal/design-in-browser/design-in-browser.png)  
+I read a lot of debates about design in browser. I personally design in browser for many years on certain projects, and I do not really understand all these questions.
+
+**A good tool is a tool that brings a creator closer to its creations, but also a tool that allows a creator to reach the result that he expects.** It is easy to imagine a design, and the best tool should allow you to create as easily as you imagine. But it is hard to communicate and store ideas that you only have in your mind, and that is why a good tool should also allow you to overtake your own limits and to do more things : to communicate more easily and to store more efficiently. As written by Marshall Mc Luhan "all media are extensions of some human faculties, mental or physical", and I believe that this works as well for tools.
+
+You, as a designer, have to know your tools and when they are the best depending on the context.
+
+##So for what kind of work is Photoshop a good tool ?
+
+Of course, for visual design. I still use Photoshop on almost every project. Either for creating very specific visual elements, or just as a concept art tool when trying to find an artistic direction (I think it is the same process used in video games with concept art paintings).  
+However, **Photoshop is really bad when you deal with interactive products.** You just can not efficiently show anything else than the visual layer of an interactive product with Photoshop.  
+Even the visual layer is a lie in Photoshop. It will always be far away from the final result as it will behave in the browser.
+
+That is the reason why I only use Photoshop to give an idea of the visual intention of a project, or to create very specific graphic elements.
+
+##And what about design in browser ?
+
+Again, design in browser is not THE tool. It is one of your design tools.
+
+In my opinion, it is perfectly suited for most of the interaction design work related to web products because it is done in the final environment of your designs, the place where they will live : the web browser.  
+**It helps you to understand the behavior of the environment where your designs will be implemented** : resize, fonts, scroll, page loading,... You have to know that, as well as a print designer has to have a knowledge of the print workflow. Of course you do not have to design in browser to understand it, but it will really help you a lot.  
+Designing in browser is really helpful when you have to work on interactions, user journeys, user flows, transitions, animations, states,... Of course you can do all these things by hacking mockups or with prototyping tools... but I really never found anything faster and more efficient than designing in browser (depending on your product of course).  
+That is true, having to code things moves you away from the result. But that just means that **you should already have a strong idea of your design when starting to design in browser.** And that is also true for Photoshop : do not dive into Photoshop as soon as you have an idea... try to work a lot with the tool that is the best for early design steps : pencil + paper !
+
+Designing in browser helped me to work more on paper. To plan more before acting.  
+Paper fits to almost every part of the design work : visual design with sketches, layout with wireframes, user journeys with scenarios,...  
+However the strength of paper is not the fidelity of the result but the fact that you can try and work faster. That is why it is a tool useful in early and high level steps of the design work. And that is why it is a perfect partner of design in browser.
+
+So do not hesitate to  try a lot of things on paper. When you are enough confident with something, if you think that you will have to deal with a lot of interactions, it will probably be a good choice  to directly design in browser.
+
+I could describe a lot of tools in the same way (Illustrator, Fireworks, prototypes, user tests,...). I think that it is crucial to understand that **your tools are not the result of your work.** A mockup is not the result of a design work. A prototype, is not the result of a design work neither. These are just tools used to communicate design intentions.  
+Do not waste your time to find THE perfect tool. Try to understand each tool and how it can help for certain things, and be a limit for other things. **Try to focus on the real result of your work : intentions.**

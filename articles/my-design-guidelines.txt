@@ -1,0 +1,81 @@
+title: My design guidelines
+date: 2011/12/19
+pinit: true
+>-------<
+Since I started working on UI design, the vision of my work changed a lot.  
+I have read a lot of books and articles, I have used a lot of tools and processes, I have met a lot of environments and companies,... all of this allowed me to test the way I work.
+ 
+I can now establish some very theoretical design guidelines. Even if I know that these guidelines will probably evolve with my next projects, I think that it could be interesting to talk about it, so you could have a better idea on what are the principles that guide my work.
+
+Of course, these are just guidelines and not strict rules. The idea is to use them properly and to be flexible or these guides could end to work against us.
+
+Let's dive into this subject ! I think that a good user experience is built on 5 principles : **To offer a product suited for its users, well structured, followings standards, self understandable, and enjoyable.**
+
+I know that if I follow these guidelines, I have very few risks to miss opportunities in my designs.
+
+##1 - Suitable
+![A product suited for its users](/images/journal/mes-guidelines-de-design/adapte.png)  
+The most important part of a design !  
+**A good product, is a product that meets its users' needs** (and the business needs of course).  
+It may sound obvious, but it involves something that is actually rarely done in companies : to be suited to users, **you first have to know who are the users of your product.**
+
+This may be the most difficult part of the design sometimes. You have to know them, not only from a marketing point of view (age, location, salary,...), but more from a "human" or "usability" point of view.
+
+When you talk about "users of your product", you deal with a very vague concept that is not inspiring when communicating (it is difficult to imagine all the profiles and behaviours that it involves).  
+On the other side, you can not define each user of your product. First it would be very expensive and time consuming, and secondly it would not be usable in a design process (how could you design something for every single user ?). Too much accuracy is not useful when dealing with complex entities (and human behaviours when using products can be very complex entities !).  
+We have to simplify things.
+
+**That is the reason why defining personas is probably the most useful tool for a designer** (I will try to talk about it in details in another article).  
+The main idea is to try to avoid designing things just because the designer or the product manager or the CEO or any other stakeholder likes it.
+When you design something it should only be because you know that your users will like it.
+
+##2 - Structured
+![A product well structured](/images/journal/mes-guidelines-de-design/structure.png)  
+Almost all the time, the goal of a UI is to make it easy for a user to access some content. So you always should keep in mind that **the most important in a product is its content.**
+And in order to offer efficient solutions in the user experience, it is important to have a well structured content.
+
+The idea here is simply to group elements, and to organize these groups into a hierarchy. You will then be able to distribute these groups and these hierarchies on time (user journeys) and on space (layouts).  
+You will also be able to offer different ways to browse this content, that will not necessarily follow the structure that you defined (cross navigations, highlight,...).
+
+##3 - Normalized
+![A product that follows standards](/images/journal/mes-guidelines-de-design/normalise.png)  
+Here the idea is to **capitalize on your user's knowledge** on 2 levels : internally (inside your product), this is consistency; externally (in regard of other products), this is convention.
+
+That is the reason why it can be sometimes useful to define some guidelines (graphic guidelines, interaction guidelines, copywriting,...). It helps to stay consistent (even if you have to take care of not being too strict... you have to be flexible and to recognize when this help become a constraint).  
+**If I use a "cross" icon to remove a photo, I would need to have a good reason to use a "trash" icon to remove a photo album.**
+
+That is also why personas can help us to know what are the conventions of our users and how the products that they use (websites, softwares, app,...) are designed.  
+**If my main persona always uses "buy" buttons on the websites that he browses, I would need to have a good reason to label my button "Add to basket".**
+
+##4 - Explicit
+![A product that is self understandable](/images/journal/mes-guidelines-de-design/explicite.png)  
+A user should never feel alone. **Your design should be able to converse with your user**, to inform, and to guide him.
+
+As a designer, you do not have a lot of tools in order to do this... this is mainly about good sense.  
+You have to use understandable words and to avoid jargon ("Sign in" versus "Open a new session" for instance). You should find clear icons, a good navigation, and an easy way to get some help.  
+You have to take care of the "affordance" of elements ("affordance" being the ability for an element to show how it should be used).  
+You should be able to inform the user when necessary (action feedbacks, notifications, errors handling,...).
+
+These questions are the ones that are the most tackled in user tests (wrong labels, bad navigation,...).
+
+##5 - Enjoyable
+![A product that is enjoyable to use](/images/journal/mes-guidelines-de-design/agreable.png)  
+Everything would be so much easy (and maybe boring) if the design work would deal only with objective rules... but that is not the case !
+User experience is not just about usability, **it is also affected by some very subjective elements.**  
+A product that looks nice, that seems enjoyable to use can easily help to forget some important usability issues. In my opinion, the best examples are Apple softwares, which are not always the best products on usability and features, but which have such a good finishing and which let a so good quality impression that they seem always easy and efficient for the user.
+
+So this is an important part of the design even if it is more difficult to define "rules" for that.  
+Of course, your product should be beautiful (even if it is very subjective). It should also be technically optimized and efficient because **the speed of a product will affect the perception of the user** (do not make your user wait while using your product).  
+You should also take care of your interaction flow (try to avoid long transitions for instance).  
+And finally, you should totally be sure to offer a product that is accessible for your user (through every elements of the information flow : server, network, user equipment, user abilities,...).
+
+That is all for this first article !  
+Of course, this approach is really personal and might not fit to every designer. But for me and for now, this is a good way to guide my work.
+
+Some interesting reads on this subject :  
+[The Inmates Are Running the Asylum](http://www.amazon.fr/Inmates-Are-Running-Asylum-Products/dp/0672326140/ "The Inmates Are Running the Asylum") by Alan Cooper  
+[Don't Make Me Think: A Common Sense Approach to Web Usability](http://www.amazon.fr/Dont-Make-Me-Think-Usability/dp/0321344758/ "Don't Make Me Think: A Common Sense Approach to Web Usability") by Steve Krug  
+[Ergonomie web : Pour des sites web efficaces](http://www.amazon.fr/Ergonomie-web-Pour-sites-efficaces/dp/2212132158/ref=sr_1_sc_2?ie=UTF8&qid=1324329342&sr=8-2-spell "Ergonomie web : Pour des sites web efficaces") by Amélie Boucher  
+[Information Architecture for the World Wide Web](http://www.amazon.fr/Information-Architecture-World-Wide-Web/dp/0596527349/ "Information Architecture for the World Wide Web") by Louis Rosenfeld  
+[The Psychologist’s View of UX Design](http://uxmag.com/articles/the-psychologists-view-of-ux-design "The Psychologist’s View of UX Design") by Susan Weinschenk  
+[You’re not a user experience designer if…](http://whitneyhess.com/blog/2011/04/23/youre-not-a-user-experience-designer-if/ "You’re not a user experience designer if…") by Whitney Hess

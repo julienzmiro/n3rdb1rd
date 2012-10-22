@@ -1,0 +1,18 @@
+title: Should we talk of features ?
+date: 2012/01/24
+pinit: false
+>-------<
+![Should we talk of feature ?](/images/journal/talk-of-feature/talk-of-feature.png)  
+I am not sure that talking of "features" makes sense when building a product.  
+"Feature" is a user's word that deals with a user facing result (definition + design + development) : "I like this feature", "This feature is missing", "They have a lot of new features",...
+
+But does it really make sense to talk about features when defining or designing a product ?  
+**I think that it would be better to talk about "users' needs"**. It would probably help to separate the product definition ("WHAT" does our users need ?) from the product design ("HOW" answer to these needs ?).
+
+That way, the first step is clearly to identify what our users really need and to prioritize these needs : "50% of our users leave our product when they have to create a playlist because they do not understand what is a playlist" instead of "We should add a feature that will suggest some tips during the playlist creation process so the user will know what he is doing".  
+**When you talk about features (as in the second example) you already suggest a solution**, often based on common patterns (the user is lost => we shloud offer some help), but which is not always the most suitable solution. Of course the design team will be able to find another solution after that, but first it is always difficult to introduce a new idea when people already thought about something, second it is a shame to waste some time of the definition process while we should focus every effort on the core of this work, and third you take the risk to miss a lot of fresh and new ways to approach the problem.
+
+After having identify and prioritize users' needs, the design process will be "free" to find the best solution, and it can be very different from what would be imagined when defining a feature (instead of a users' need). And if this design is based on a clear users' need, you have way more chances to find a suitable solution (in my opinion).
+
+While writing this article, I just found an amazing quote on Twitter by Zelda Harrison that exactly sum-up these thoughts :
+> Never ask a designer to design a bridge. Ask a designer to design a way to cross the water.

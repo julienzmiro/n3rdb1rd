@@ -1,0 +1,20 @@
+title: About product personality
+date: 2012/05/24
+pinit: false
+>-------< 
+Few months ago, I had the opportunity to attend to the UX book club about the book written by Aarron Walter, "Designing for emotions". The meeting was great, and a lot of questions have been discussed. One of the main was : **"What are the elements that help to build a relationship between a user and a product ?".**  
+
+I think that it is a really hard topic. We all have some examples of products (websites, video games, cars, computers,...) that stand out of others and that left us more than just the result of the use. When I think to some video games that I played when I was a child for instance, I still feel an emotional link established between them and me. I feel that I am not only a former user of these games : **I am a supporter of these products.**  
+This way, I am more easily disposed to have a good image of the brands related to this game, and I am also more easily disposed to spread this good image to other people that I know and to preach for it. I think that a real marketing person could define benefits of all these things better than I do, but at the end the important thing is that **creating an emotional link between a user and a product offers a lot of business benefits.**  
+
+The most incredible part of my personal example it is that I still have the same feeling about those games, even many years after having last played to them. Another interesting thing is that many of those games are clearly not visually advanced (some of them are even text-based games !) : that means that the visual layer is not the only consideration to this question. Finally, I took video games as an example, but I could also use a lot of other products.  
+
+##How can we create an emotional link between a product and its users ?
+I think that this kind of relationship works exactly in the same way than human relationships : you need to create affinities. And in order to create affinities between two humans (and so between a human and a product), both of them need **personality.**  
+
+This is the key point of the emotional layer of every design. You need a strongly defined, and not smooth shaped personality for your product. In other words : **you need to define a clear direction that will reflect the way you want your product be adressed to your users**, and you will have to follow the line in every design decision.  
+
+A lot of products are soft, weak, consensual, flat and without any strong orientation. Those products are bound to be middle-standard-unmemorable products, that will never be able to go beyond their potential usefulness and to create a link with their users. Those products go through our lives every days, and we only notice them for the service that they achieve (or that they fail to achieve in worst cases).  
+Of course, it is already a good thing to use a product that answer your need. And most of the time users do not need more (by definition). But it is a business issue to go beyond that and to ensure not only user's satisfaction, but user's delight in order to create a real relationship between your product your users.  
+
+In human relationships, as in product / users relationships, we need to enliven traits in order to catch attention. We need things to love, to hate, or just to share, and all these things come from design decisions that need to be taken in conscience. It is important to not simply follow patterns and to fall into the standard bunch of smooth products. We need to think of every design decision from the product personality point of view in order to bring depth to the user experience.

@@ -1,0 +1,60 @@
+title: Product Size Upsell
+rank: 003
+cssId: workSizeUpsellPhotobox
+>-------< 
+<h1 id="workTitle">Product size upsell</h1>
+<p class="workMeta"><span>2012</span> - <span>Photobox</span></p>
+<div id="visuContainer">
+  <div id="visuTrail"></div>
+  <div id="visuCircle">
+      <p>+</p>
+    </div>
+</div>
+<section id="content">
+	<article class="work">
+		<p class="columnsLayout">The problem : when Photobox asks its users if they want to change the size of their products, the company basically asks "Do you prefer a 20 x 30cm canvas at 25 euro or a 35 x 45cm canvas at 43euro ?".</p>
+		<p>This is really bad. The only informations that they give to their users here are : first a completely meaningless size (who really knows the difference between 20 x 30cm and 35 x 45cm ?) and secondly an incredibly meaningful price (I bet everybody knows the difference between 25 and 43 euros).<br />
+		<strong>You do not show the value of the size to the user, so you can not expect him to make the sacrifice of euro for an unclear centimeter benefit.</strong><br />
+		It is not that your user would not need a better size, it is just that you fail to give him enough informations.</p>
+
+		<h3>Differences between configuration and upsell</h3>
+		<p>An important point that we faced during this project is the difference between configuration and upsell.<br />
+		<strong>The user does not need any upsell to reach its users' goals.</strong></p>
+		<p>Every single option available in the upsell page, is also available as a product configuration in one of the many creation steps. The difference between configuration and upsell : in the first case we answer to a user's need (it comes from a user's action), in the second to a business' need (it is the product that try to catch the user).</p>
+		
+		<figure class="floatL" id="figConfPage">
+			<img src="/images/portfolio/product-size-upsell/conf-page.jpg" alt="An example of configuration page" />
+			<figcaption>This might be a good configuration page, but it does not fit at all the approach of an upsell page.</figcaption>
+		</figure>
+		<p>We tried to avoid the configuration trap : we took care to not adopt the same strategy between the configuration and the upsell processes. When working on the upsell, we have to be more directive, seductive and we have to be able to show really quickly the benefits of the upsell. It is a pure marketing approach.</p>
+		<p>For these reasons, we tried to create an upsell screen with strong visual elements instead of a boring configuration list. Something that adress emtions more than reason.</p>
+		<p>We also had to decide the number of options available in this upsell page. For instance, canvas at Photobox have a lot of options such as the size of the canvas, the finishing, the quality,...<br />
+		The thing is that you can not expect the same impact when you display 4 or 5 options in one page. We need time and space to properly describe and explain each option in order to convince the user of their values. And at the end, the user's attention and its interest are diluted in all these different options.<br />
+		We have to find the good balance depending on each case (A/B tests might be a good tool for that).</p>
+
+		<h3>Show the product in context</h3>
+		<p>We quickly decided that it was important to show products in context (I mean, in a real life situation).<br />
+		First it helps to understand the different sizes (comparison between options). Secondly, it helps to realize and to imagine the size of a particular product. And finally, it helps to make the product more concrete and real (before this step, the user dealt with very abstract concepts in order to create his product).</p>
+		<figure>
+			<img src="/images/portfolio/product-size-upsell/wd-upsell-size.jpg" alt="The new wall decor upsell page" />
+			<figcaption>Here is the final result of the design</figcaption>
+		</figure>
+
+		<h3>Make it fun and usable</h3>
+		<figure class="floatR" id="figTicket">
+			<img src="/images/portfolio/product-size-upsell/ticket.jpg" alt="The product detail" />
+			<figcaption>The detail of the product.</figcaption>
+		</figure>
+		<p>We also tried to find a ludic way to browse sizes. That is the reason why we choosed to use big "+" and "-" buttons that will instantantly change the size of the product.</p>
+		<p>Another important point is the feedback. We wanted to give an instant sumup of the product with the selected size and the current price on the right (updated when the size is changed).</p>
+
+		<h3>To conclude</h3>
+		<p>After this project, we decided to use the same approach on our other upsell pages. On the books' creation tool for instance, we tried to show strong visual of the pages quality. It is a very specific exercice because it is completely different from other kind of user's centric work that I used to do at Photobox.</p>
+		<p id="workFreelanceFooter">I am currently working as freelancer and always interested by new projects, so do not hesitate to <a href="http://www.n3rdb1rd.com/contact#email" title="The place where you can contact me">send me an email</a> if you think that we should work together !</p>
+	</article>
+</section>
+>-------< 
+<div id="visuTrail"></div>
+<div id="visuCircle">
+  <p>+</p>
+</div>

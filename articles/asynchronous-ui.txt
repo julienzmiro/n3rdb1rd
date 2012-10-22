@@ -1,0 +1,28 @@
+title: Asynchronous UIs
+date: 2012/02/06
+pinit: false
+>-------<
+![Asynchronous UIs](/images/journal/asynchronous-uis/asynchronous-uis.png)  
+Few months ago, I read an article by Alex MacCaw about [asynchronous UIs](http://alexmaccaw.co.uk/posts/async_ui "asynchronous UIs").  
+This article highlights **something that many designers forget in their work : the loading times.**
+
+Design is a step before implementation (if not, you might have some issues !). That means you do not have to face implementation fallouts while designing a product. **One of the most important implementation fallout is the performance issue which is often felt by the user through loading times.**  
+So while designing, a lot of people avoid to think about loading times.  
+Even when driving user tests with a very high fidelity prototype, you deal with something that misses an important part of the final user experience : performance. Imagine an interface based on drag and drop that works very well on prototype, but that completely fails on live because of performance issues that make the drag and drop almost impossible to use.
+
+Another reason for forgetting loading times is that this question is strongly bounded to technical decisions (application architecture, client-server model,...). So in many companies, this kind of decision involves only IT. However when a choice directly affects the user, the design team should always be concerned (cf [What is design ?](http://www.n3rdb1rd.com/journal/what-is-design "What is design ?")).
+
+Ignoring the loading time while designing could be a mistake.  
+However before going into details, let me explain what Alex MacCaw means when he talks about "asynchronous UIs" with an example : gmail.  
+Let's say that I want to send an email with an heavy image attached to it. The image takes something like 1min to be uploaded.  
+Currently, gmail forces me to wait until the end of my attachment upload. I can click on the "send" button but I have a kind of notification on the top of my screen saying that my attachment is uploading, and then that my email is sending. After clicking on the "send" button, I can not do anything because of the loading time. **This is a blocking UI.** Even if I am used to loading times on the Web and even if I expected to have to wait in order to send my email, this is a very frustrating experience.  
+Could you imagine what it would be to have the ability to read or write a new message while a small notification is showing me the progress of my last email sending ?  
+This is possible. **This is not a technical issue, this is a design issue** (in many cases). The design team has to create a fluid experience adapted to modern technical abilities and not based on old request-response patterns.
+
+However this example does not work for every loading time, it is possible only because the server can "do the work" in background while letting free the use of the product : this is an asynchronous pattern.  
+Now, imagine that I want to access a new page of gmail. The loading time will be inevitable in that case because I have to request the required data to display this page.  
+To sum up, **we can differentiate two kinds of loading times : the push and the pull loading times.**  
+As in the first example, push requests come when the user send data to the server (when I send an email, or when I upload an attachment for instance). In that case, loading times can be avoided with a good design (and a good technical implementation of course).  
+But as in the second example, pull requests require to wait for some data from the server (the content or the template of a new page that is not in cache for instance). Without this data, the product is not working. These loading times can not be avoided, they can only be optimized.
+
+This kind of feature can really improves the user experience on modern products. So it is important to deal with these questions when designing, and it appears that asynchronous UIs + optimization of pull requests could be a good answer to loading times.

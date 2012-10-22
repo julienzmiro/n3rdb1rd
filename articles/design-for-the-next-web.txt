@@ -1,0 +1,50 @@
+title: Design for the next web
+date: 2012/02/01
+pinit: false
+>-------<
+![The next web](/images/journal/design-next-web/design-next-web.png)  
+I think that we are facing a big change in the web... as I am french, I would even say a revolution !  
+Even if I do not like to talk about "web 3.0" or things like that, I have to admit that the web moves really faster for few months.
+
+##The current situation
+A lot of websites, sometimes mass-market websites as Facebook, do not hesitate to introduce some new features that make their services less compatible with old browsers (IE6 or IE7 mainly).  
+On the other side, these browsers still account for a significant part of users (even if this will not last for a long time). This is a situation that was completely unconceivable few months ago.  
+**In my opinion this is a real technology break that suggests a web revolution for the next months.**
+
+If these companies make these compatibility choices, that is because they found some values. It is interesting to ask what exactly are these values... what "features" could justify to abandon a part of its users.  
+Of course, I think that you are already seeing my glaze pointing on what I call "the html 5 package". Beyond standards, I am talking about **a group of trends and technologies that are planning the next web** : html5, css3, ecma script harmony, node js, cloud computing, API as platform, responsive design,...  
+It can be for performance issues, for features, or for user experience, but at the end solutions and prospects offered by this package are enough attractive to make companies decide to implement them.
+
+##And tomorrow ?
+From this point, we can ask ourself how will look the next web, and how this package will be used to build our next web tools.  
+I think that everybody has his own opinion about that. To me, I think that we are going to an applicative and user-experience optimized web.  
+What I mean by "applicative" : focused on a small set of core features of a product + an optimized user experience that can contrast with "traditional web". To summarize, **we focus our work on the core of a product and we try to make the most of it with a suitable user experience.**
+
+When I think about websites that I used last years, I realize how much they all looked the same in the way they offered me their product !  
+Almost all these websites followed the same patterns : header + 2 or 3 columns + footer for the layout, and homepage > category > sub category > content for the journey (of course this is simplistic). Yet, is this really the pattern that fit every product and their main users' behaviors ? **Is it an optimum model for my use of Facebook, Ebay, Amazon, Wikipedia, and Youtube ?**  
+Sincerely, and even without looking deeply into this question, I doubt of it.
+
+Of course I know the origin of that, and I am not criticizing people who build these products (I am one of them). But I think that the next web will brush these models aside to push every product to an user experience that really fits its context. And we can already meet this kind of websites today : [cinemur.fr](http://cinemur.fr "cinemur.fr"), [slaveryfootprint.org](http://slaveryfootprint.org "slaveryfootprint.org"), [grooveshark.com](http://grooveshark.com "grooveshark.com"), [cloud9ide.com](http://cloud9ide.com "cloud9ide.com"), [heroku.com](http://heroku.com "heroku.com"),... all these products take some clear design directions (successfully or not) and I am sure that they predict what will be the next web.
+
+##Why the web would change ?
+First because now technology enables to do more and very different things.  
+Secondly because I think that a lot of markets in the web are now reaching maturity. And if they had to first fight on features, they then had to fight on prices (when all products are on the same level of features and services, companies try to reduce prices to conquer market shares). But today, a lot of companies are not able to dive in this price war, either because their profit margin are already too low, or because they understood that they can not compete healthily on that field.  
+So I think that a lot of companies are now trying to differ from competitors by offering a suitable user experience. **They understood that a lot of users are ready to spend a bit more for a product that they could use easily** (even if it is not true for every market of course).
+
+I also think that mobile apps have demonstrated how it is possible to create successful products by cutting in features and by focusing the work on a core service perfectly highlighted in a suited user experience.  
+Now companies know that this model works.
+
+##What does that means for a designer ?
+First I think that the way companies are handling design will change a lot.  
+For a lot of people, design is still just a graphic step validated by "internal intuition". I sincerely think that this way of work will not last. User experience is clearly what is at stake in the next web : it will be for a lot of companies the only way to differ from competitors and technology will not be an excuse for a "common design" anymore.
+
+This also means that as a designer, you will have more responsabilities in decisions. **Your skills, your experience, your methods and your tools will be the guarantee of success.**  
+More responsabilities means more expectations. Your company will need a real global design work (layout, user journeys, interaction, copywriting, audio design maybe,...). Of course, that does not mean that you will have to work on all of these fields if you do not want to or if you are not able to. But the design team will be in charge of the whole conception of the product and will not only just execute a necessary graphic step.
+
+That also means that you will probably have to change your tools and methods. **If your work is driven by your personal intuition, that will have to change.** Your work will be driven by users' behaviors and your tools will be choosen for that purpose (persona, user tests, prototypes,...).
+
+Finally, even if you will not have to work on all of the design fields, I think that it could really be a kind of "secret weapon" to have a strong knowledge on the whole design process and to have clear vision on how it works. From information architecture to prototypes, **being interested in the whole design is a clue of curiosity and passion for your work.** It is even better if your are interested in front-end development as it is the implementation of your work... who could work for months on a user-centered concept and not think about how it will be delivered to users ?  
+**Front-end development and design will also be more closely bounded** as interactions, transitions and animations will be more complex. So it is really a strength to be able to discuss and to create a link between design and implementation.
+
+##Conclusion
+In any case, you should follow the evolution of the web and of design. Even if I am wrong on the "applicative web", our playground is obviously changing and if you are not already in the good trend, you have to be ready to change the way you work.

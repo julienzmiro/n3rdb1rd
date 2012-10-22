@@ -1,0 +1,421 @@
+/********
+BASE
+********/
+@font-face {
+	font-family: 'cubano';
+	src: url('../fonts/Cubano-Regular.otf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+p {
+	margin: 0;
+}
+h2 {
+	font-family: cubano, Arial;
+	/*TODO : Resize font-size, line-height, letter-spacing depending on container size*/
+	font-size: 65px;
+	line-height: 65px;
+	margin: 5px 0;
+	color: #e98940;
+	text-shadow: 0px 0px 0px transparent;
+	filter: dropshadow(color=transparent, offx=0, offy=0);
+}
+#homeScreen1PScroll {
+	text-align: right;
+	right: 0;
+}
+.grey {
+	color: #b9b9b9;
+}
+#homeQuoteP {
+	font-style: italic;
+	color: #e98940;
+	line-height: 18px;
+}
+
+/********
+JS
+********/
+html {
+	overflow-x: hidden;
+}
+#container {
+	padding-top: 0;
+}
+#content {
+	padding-top: 100px;
+	position: relative;
+}
+#mainNav {
+	margin-top: 100px;
+}
+#scrollWrapper {
+	position: absolute;
+	display: block;
+	width: 100%;
+}
+.animScreen {
+	width: 100%;
+	/*overflow: hidden;*/
+	margin-bottom: 100px;
+	max-width: 710px;
+}
+.animScreen h2,
+#homeScreen6,
+#homeScreen7 {
+	-moz-transform-style: "preserve-3d";
+	-webkit-transform-style: "preserve-3d";
+	-o-transform-style: "preserve-3d";
+	-ms-transform-style: "preserve-3d";
+	transform-style: "preserve-3d";
+
+	-moz-transform-origin: "50% 50%";
+	-webkit-transform-origin: "50% 50%";
+	-o-transform-origin: "50% 50%";
+	-ms-transform-origin: "50% 50%";
+	transform-origin: "50% 50%";
+}
+#content img {
+	-webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	-moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	margin: 0;
+}
+#homeScreen1 {
+	/*position: absolute;
+	top: 10px;
+	left: 0;*/
+}
+/*
+#animContainer {
+	position: absolute;
+	top: 650px;
+	left: 0;
+}
+*/
+/*
+#introTxtContainer {
+	height: auto;
+	position: static;
+	margin-bottom: 0;
+}
+*/
+#homeScreen2 {
+	position: relative;
+	height: 400px;
+	overflow: visible;
+}
+#homeScreen2 img {
+	position: absolute;
+	top: 10px;
+	left: 0;
+}
+#homeImgRea1 {
+	z-index: 120;
+	/*position: relative;*/
+}
+#homeImgRea2 {
+	z-index: 119;
+	-moz-transform: scale(1) rotate(2deg) translate(0px, 0px) skew(0deg, 0deg);
+	-webkit-transform: scale(1) rotate(2deg) translate(0px, 0px) skew(0deg, 0deg);
+	-o-transform: scale(1) rotate(2deg) translate(0px, 0px) skew(0deg, 0deg);
+	-ms-transform: scale(1) rotate(2deg) translate(0px, 0px) skew(0deg, 0deg);
+	transform: scale(1) rotate(2deg) translate(0px, 0px) skew(0deg, 0deg);
+}
+#homeImgRea3 {
+	z-index: 118;
+	-moz-transform: scale(1) rotate(-2deg) translate(0px, 0px) skew(0deg, 0deg);
+	-webkit-transform: scale(1) rotate(-2deg) translate(0px, 0px) skew(0deg, 0deg);
+	-o-transform: scale(1) rotate(-2deg) translate(0px, 0px) skew(0deg, 0deg);
+	-ms-transform: scale(1) rotate(-2deg) translate(0px, 0px) skew(0deg, 0deg);
+	transform: scale(1) rotate(-2deg) translate(0px, 0px) skew(0deg, 0deg);
+}
+#homeImgRea4 {
+	z-index: 117;
+	-moz-transform: scale(1) rotate(1deg) translate(0px, 0px) skew(0deg, 0deg);
+	-webkit-transform: scale(1) rotate(1deg) translate(0px, 0px) skew(0deg, 0deg);
+	-o-transform: scale(1) rotate(1deg) translate(0px, 0px) skew(0deg, 0deg);
+	-ms-transform: scale(1) rotate(1deg) translate(0px, 0px) skew(0deg, 0deg);
+	transform: scale(1) rotate(1deg) translate(0px, 0px) skew(0deg, 0deg);
+}
+
+#homeMainSquare {
+	position: absolute;
+	left: 41%;
+	z-index: 116;
+}
+
+.orange {
+	color: #e98940;
+}
+
+#homeScreen3 div,
+#homeScreen4 div,
+#homeScreen5 div {
+	width: 100%;
+	max-width: 700px;
+	height: 125px;
+	position: relative;
+	margin-bottom: 50px;
+}
+#homeScreen4 div {
+	margin-bottom: 70px;
+}
+#homeScreen3 div img,
+#homeScreen4 div img,
+#homeScreen5 div img {
+	position: absolute;
+}
+#homeScreen3 div #homeImgSuitedSquare {
+	top: 0;
+	left: 41%;
+}
+#homeScreen3 div #homeImgSuitedBoring {
+	top: 30px;
+	left: 0;
+}
+#homeScreen3 div #homeImgSuitedDifficult {
+	top: 30px;
+	right: 0;
+}
+#homeScreen3 div #homeImgSuitedLine {
+	bottom: 0;
+}
+#homeScreen4 div {
+	height: 105px;
+}
+#homeScreen4 div #homeImgSmartSquare {
+	top: 0;
+	left: 41%;
+}
+#homeScreen4 div #homeImgSmartBulbBg {
+	bottom: 20px;
+	left: 46.5%;
+	z-index: 200;
+}
+#homeScreen4 div #homeImgSmartBulb {
+	bottom: 20px;
+	left: 46.5%;
+	z-index: 201;
+}
+#homeScreen4 div #homeImgSmartLine {
+	bottom: 0;
+}
+#homeScreen5 div #homeImgHelpfulSquare {
+	bottom: 1px;
+	left: 41%;
+}
+#homeScreen5 div #homeImgHelpfulGearBig {
+	bottom: 20px;
+	left: 42.5%;
+}
+#homeScreen5 div #homeImgHelpfulGearSmall {
+	bottom: 10px;
+	left: 51%;
+}
+#homeScreen5 div #homeImgHelpfulHeart {
+	top: 0;
+	left: 40%;
+}
+#homeScreen5 div #homeImgHelpfulLine {
+	bottom: 0;
+}
+#homeScreen6 #homeAboutLeft {
+	width: 45%;
+	margin-right: 5%;
+	float: left;
+	height: 400px;
+}
+#homeScreen6 #homeAct {
+	width: 45%;
+	margin-left: 5%;
+	float: left;
+}
+#homeScreen6 #homeAge {
+	width: 100%;
+	height: 130px;
+	margin: 0 0 50px 0;
+	padding: 0 0 25px 0;
+	position: relative;
+}
+#homeScreen6 #homeAgeYearsNum {
+	font-family: cubano, Arial;
+	font-size: 120px;
+	color: #e98940;
+	position: absolute;
+	top: 60px;
+	left: 0;
+}
+#homeScreen6 #homeAgeRight {
+	font-family: cubano, Arial;
+	font-size: 28px;
+	line-height: 30px;
+	color: #e98940;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	width: 55%;
+}
+#homeScreen6 #homeAgeYearsLab,
+#homeScreen6 #homeAgeMonths span,
+#homeScreen6 #homeAgeDays span {
+	color: #b9b9b9;
+}
+#homeScreen6 #homeAgeBottom {
+	font-family: cubano, Arial;
+	font-size: 18px;
+	color: #e98940;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#homeScreen6 #homeAgeBottom span {
+	color: #b9b9b9;
+}
+#homeScreen6 #homeHob {
+	position: relative;
+	height: 250px;
+	margin: 0;
+}
+#homeScreen6 #homeHob .icoMe {
+  width: 91px;
+  height: 91px;
+  margin: 0;
+  background: rgba(0,0,0,0.3);
+  -webkit-border-radius: 400px;
+  -moz-border-radius: 400px;
+  border-radius: 400px;
+  -webkit-transition: background 0.7s;
+  -moz-transition: background 0.7s;
+  -o-transition: background 0.7s;
+  transition: background 0.7s;
+  position: absolute;
+  text-align:center;
+}
+#homeScreen6 #homeHob .icoMe:hover {
+  background: rgba(0,0,0,0.9);
+}
+#homeScreen6 #homeHob .icoMe img {
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  margin: 0 auto;
+  position: static;
+}
+#homeScreen6 #homeHob #homeHobImgVideoGames {
+  top: 13%;
+  left: 0;
+}
+#homeScreen6 #homeHob #homeHobImgTennis {
+  top: 42%;
+  left: 8%;
+  width: 105px;
+  height: 105px;
+}
+#homeScreen6 #homeHob #homeHobImgTennis img {
+  margin-top: 6%;
+}
+#homeScreen6 #homeHob #homeHobImgDraw {
+  top: 5%;
+  right: 0px;
+  width: 120px;
+  height: 120px;
+}
+#homeScreen6 #homeHob #homeHobImgDraw img {
+  margin-top: 12%;
+}
+#homeScreen6 #homeHob #homeHobImgDev {
+  top: 43%;
+  right: 10%;
+  width: 140px;
+  height: 140px;
+}
+#homeScreen6 #homeHob #homeHobImgDev img {
+  margin-top: 16%;
+}
+#homeScreen6 #homeAct #homeActContainer {
+	height: 400px;
+	margin: 0;
+	overflow: hidden;
+	padding-top: 85px;
+	position: relative;
+}
+#homeScreen6 #homeAct #homeActContainer div {
+	width: 100%;
+	font-family: cubano, Arial;
+	font-size: 24px;
+	color: #121313;
+	text-shadow: 0px 0px 0px transparent;
+	filter: dropshadow(color=transparent, offx=0, offy=0);
+	text-align: center;
+	-moz-transform: matrix(1, -0.05, 0, 1, 0, 0);
+ 	-webkit-transform: matrix(1, -0.05, 0, 1, 0, 0);
+  	-o-transform: matrix(1, -0.05, 0, 1, 0, 0);
+ 	-ms-transform: matrix(1, -0.05, 0, 1, 0, 0);
+  	transform: matrix(1, -0.05, 0, 1, 0, 0);
+  	position: absolute;
+}
+#homeScreen6 #homeAct #homeActContainer div p {
+	-moz-transform: matrix(1, 0.05, 0, 1, 0, 0);
+ 	-webkit-transform: matrix(1, 0.05, 0, 1, 0, 0);
+  	-o-transform: matrix(1, 0.05, 0, 1, 0, 0);
+ 	-ms-transform: matrix(1, 0.05, 0, 1, 0, 0);
+  	transform: matrix(1, 0.05, 0, 1, 0, 0);
+}
+#homeScreen6 #homeActZombies {
+	height: 117px;
+	background-color: #ed4a34;
+	bottom: -10px;
+	padding-top: 40px;
+}
+#homeScreen6 #homeAct #homeActContainer #homeActLearn {
+	height: 90px;
+	background-color: #e96c40;
+	bottom:130px;
+	padding-top: 30px;
+	-moz-transform: matrix(1, 0.05, 0, 1, 0, 0);
+ 	-webkit-transform: matrix(1, 0.05, 0, 1, 0, 0);
+  	-o-transform: matrix(1, 0.05, 0, 1, 0, 0);
+ 	-ms-transform: matrix(1, 0.05, 0, 1, 0, 0);
+  	transform: matrix(1, 0.05, 0, 1, 0, 0);
+}
+#homeScreen6 #homeAct #homeActContainer #homeActLearn p {
+	-moz-transform: matrix(1, -0.05, 0, 1, 0, 0);
+ 	-webkit-transform: matrix(1, -0.05, 0, 1, 0, 0);
+  	-o-transform: matrix(1, -0.05, 0, 1, 0, 0);
+ 	-ms-transform: matrix(1, -0.05, 0, 1, 0, 0);
+  	transform: matrix(1, -0.05, 0, 1, 0, 0);
+}
+#homeScreen6 #homeActDesign {
+	height: 80px;
+	background-color: #e98940;
+	bottom:230px;
+	padding-top: 20px;
+}
+#homeScreen6 #homeAct #homeActContainer #homeActDev {
+	height: 60px;
+	background-color: #e9a740;
+	bottom:310px;
+	padding-top: 10px;
+	-moz-transform: matrix(1, 0.02, 0, 1, 0, 0);
+ 	-webkit-transform: matrix(1, 0.02, 0, 1, 0, 0);
+  	-o-transform: matrix(1, 0.02, 0, 1, 0, 0);
+ 	-ms-transform: matrix(1, 0.02, 0, 1, 0, 0);
+  	transform: matrix(1, 0.02, 0, 1, 0, 0);
+}
+#homeScreen6 #homeAct #homeActContainer #homeActDev p {
+	-moz-transform: matrix(1, -0.02, 0, 1, 0, 0);
+ 	-webkit-transform: matrix(1, -0.02, 0, 1, 0, 0);
+  	-o-transform: matrix(1, -0.02, 0, 1, 0, 0);
+ 	-ms-transform: matrix(1, -0.02, 0, 1, 0, 0);
+  	transform: matrix(1, -0.02, 0, 1, 0, 0);
+}
+#homeScreen6 #homeAct #homeActContainer #homeActIllu {
+	height: 60px;
+	background-color: #eacb50;
+	bottom:355px;
+	padding-top: 5px;
+}
+#homeTitle7 {
+	color: #b9b9b9;
+}

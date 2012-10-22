@@ -1,0 +1,19 @@
+title: Is this really the future of interfaces ?
+date: 2012/05/23
+pinit: false
+>-------< 
+Am I the only one to think that [this](https://live.leapmotion.com/index.html "Leap") is not the future of interfaces ?  
+I won't talk of it as a gimmicky innovation because this seems to be **an heavy technical improvement.** And it is important to innovate, even with solutions that are not totally usable today (because they can lead to useful and usable improvements for tomorrow).
+However, as Bret Victor wrote in his [excellent article](http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/ "A brief rant on the future of interaction design") (he is talking about touch interfaces) :  
+>"To me, claiming that Pictures Under Glass is the future of interaction is like claiming that black-and-white is the future of photography. It's obviously a transitional technology. And the sooner we transition, the better."  
+
+And leap motion is obviously still in the tactile transitional step. Let me quote Bret Victor again :  
+>"The most important thing to realize about the future is that it's a choice. People choose which visions to pursue, people choose which research gets funded, people choose how they will spend their careers."  
+
+From that point, my question is : Is Leap Motion following the good path of innovation ? Or less pretentiously : Do I believe in this path ? And my answer is clearly "no".  
+
+Firstly, Leap Motion seems really unusable. It belongs to the same family as other tactile interfaces, that are already not really usable. In my opinion, this is even worst here : you do not touch anything, you do not have a "glass" to push on and to slow down your moves. You have to retain your moves, to control them more precisely than with classical touch devices. I am not an expert in human motions, but I really think that this is more painful and difficult to handle in a daily real life use.  
+
+Secondly, and this is also true for every touch device, I clearly think that this kind of interaction is really poor in term of user value. Again, I can only advice to read the Bret Victor's article : We miss a lot of things with this kind of touch interfaces, and **we could probably do better and focus innovation on it.**  
+
+These are the reasons why I think that this is not the future of interfaces. I praise the achievement and I am sure that it will lead to a lot of great things, but I really think that this solution belongs to the past.

@@ -1,0 +1,90 @@
+nav#mainNav h1 {
+  margin : 0 5px 0 2%;
+}
+nav#mainNav {
+  opacity : 1;
+  position: absolute;
+}
+nav#mainNav a {
+  margin-left: 5px;
+  font-size: 14px;
+}
+nav#mainNav #logo a {
+  margin-left: 2px;
+}
+#mainNav #mainNavContainer {
+  width: 100%;
+}
+#mainNav #mainNavLinks {
+  margin-right: 2%;
+}
+#container h1#workTitle {
+  font-size : 40px;
+  line-height : 46px;
+  margin : 60px auto 0 auto;
+}
+p.workMeta {
+  margin: 5px auto 30px auto;
+  font-size: 14px;
+}
+#container {
+  width: 95%;
+  font-size: 16px;
+  line-height: 22px;
+}
+#workContent {
+  padding: 5px 5% 5% 5%;
+  font-size: 16px;
+  line-height: 22px;
+}
+#container p,
+#container figcaption {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+#container p.clearfix {
+  margin-top: 25px;
+}
+#container #content .work .floatL,
+#container #content .work .floatR {
+  float: none;
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  background: #fff;
+}
+
+/*********************************
+Designing a better upload experience at Photobox
+*********************************/
+body#workUploadPhotobox {
+  color : #333;
+  background: rgb(221,221,221) url("../../images/portfolio/designing-a-better-user-experience-at-photobox/header.jpg") 50% -100px no-repeat;
+}
+
+/*********************************
+Prototyping a rich interaction app at Photobox
+*********************************/
+#workPrototypePhotobox #content {
+  padding: 20px 0 20px;
+}
+#workPrototypePhotobox #workPrototypePhotoboxVisu {
+  margin-top: 65px;
+}
+#workPrototypePhotobox #workPrototypePhotoboxVisu #workPrototypePbxGearLarge {
+  left: 50%;
+  margin-left: -54px;
+}
+#workPrototypePhotobox #workPrototypePhotoboxVisu #workPrototypePbxGearSmall {
+  left: 50%;
+  margin-left: 20px;
+ }
+#workPrototypePhotobox #container h1#workTitle {
+  margin: 30px auto 0 auto;
+}
+ #workPrototypePhotobox #container .prototypingAtPbxProtoBtn {
+  width: 250px;
+}

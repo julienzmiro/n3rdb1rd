@@ -1,0 +1,58 @@
+title: Persona, one of the most useful design tool
+date: 2011/12/23
+>-------<
+J'ai déjà évoqué les personas dans mes articles précédent. Si vous les avez lus, vous savez certainement que je considère les personas comme **l'outil le plus important du designer**.
+C'est probablement encore plus le cas dans de grosses structures où le design implique l'intervention de nombreuses personnes, une communication interne importante, et des validations à de nombreux niveaux.
+
+Je vois 2 atouts majeurs dans l'utilisation des personas :
+
+-	Ils permettent de **guider le designer dans ses choix de conception** (cf [mes guidelines de design](http://www.n3rdb1rd.com/2011/12/19/mes-guidelines-de-design/ "mes guidelines de design")).
+-	Ils sont extrêmement utiles pour communiquer en interne, pour **fédérer une équipe autour de questions pratiques**, et pour justifier ou expliquer certains choix.
+
+##Les personas : qu'est ce que c'est ?
+
+Bonne question... et pour y répondre, je vais m'auto-citer :)
+> Imaginez un persona comme un archétype d'utilisateur d'un produit. La définition de personas consiste à imaginer plusieurs “utilisateurs types” qui sont en quelque sorte les représentants de groupes d'utilisateurs ou de comportements importants.
+
+Le problème : lorsque vous parlez des "utilisateurs" d'un produit, vous parlez d'un concept très vague... il est difficile d'inspirer votre équipe ou de justifier vos choix de cette façon.  
+D'un autre côté, entrer dans le détail de vos utilisateurs et utiliser ce niveau détail pour designer est presque impossible : c'est un procédé couteux, et il est clairement impossible de concevoir un produit pour chaque utilisateur.
+
+En revanche, **il est tout à fait possible de designer un produit pour 3 ou 4 utilisateurs qui représentent les principales utilisations de votre produit**.  
+Je pense que c'est un peu le même procédé qui est utilisé en physique par exemple : il est compliqué d'élaborer des théories sur des entitées complexes et variées (le corps humain par exemple), alors on les simplifie et on les caricature pour pouvoir les manipuler plus facilement. Et les centaines de corps humains qui traversent un hall de centre commercial deviennent de simples rectangles utilisés pour modéliser les déplacements de foules.
+
+Le persona est le point de repère autour duquel vont s'articuler tous vos choix de design.
+
+C'est au fameux Alan Cooper que l'on doit ce merveilleux outil.  
+Je vous invite d'ailleurs à lire le très bon article qu'il a écrit sur l'origine des personas : [The origin of personas](http://www.amazon.fr/Inmates-Are-Running-Asylum-Products/dp/0672326140/ "The origin of personas").
+
+Pour les anglophobes ou les fainéants : Alan Cooper expose l'utilisation des personas pour la première fois dans son livre [The Inmates Are Running the Asylum]() publié en 1998.  
+Il raconte dans son article qu'il travaillait sur un outil de gestion de projets. A cette époque, il passait du temps à questionner ses collègues, qui étaient tous de potentiels utilisateurs de son outil. Lorsqu'il était seul, Alan Cooper parlait se parlait à lui même, et il en est arrivé à jouer un dialogue avec Kathy (l'une des employés qu'il questionnait).  
+Kathy posait donc de nombreuses questions à Alan sur la fonctionnalités qu'elle attendait, et les comportements de l'outil... tout ça dans la tête d'Alan Cooper toujours. Et, malgré les désagréments que peuvent engendrer de telles scènes de dialogues solitaires sur sa vie sociale, Alan Cooper comprit vite qu'il tenait là une méthode particulièrement efficace pour attaquer les problèmes de design.  
+Mais nous n'étions pas encore tout à fait arrivés aux personas (j'imagine que beaucoup de designers ont parlé seuls avant Alan Cooper).  
+Plus tard, Alan Cooper raconte qu'il est devenu consultant. C'est à cette période qu'il a pour la première fois commencé à avoir **besoin de communiquer dans les entreprises** qui faisaient appel à ses services (nécessité de justifier ses choix, de persuader, d'éviter les dialogues de sourds sur des questions subjectives,...). Au final, Alan Cooper raconte que très souvent dans les entreprises pour lesquelles il travaillait, personne n'était capable de décrire une utilisation pratique du produit à concevoir.  
+Lors de l'un de ses projets, il a donc décidé de rencontrer des utilisateurs, pour essayer de déterminer quelle utilisation ils faisaient du produit en question. Au cours de ces entretiens, et même si chaque utilisateur avait des besoins particuliers, des groupes de tendances se sont clairement dégagés. Et Alan Cooper a simplement créé des personnes représentantes de ces groupes en leur donnant des noms et en leur attachant les comportements qu'il avait faits émerger lors de ces entretiens (Chuck, Cynthia, et Rob pour les plus curieux).  
+**Le résultat a été immédiat dans la cohésion des équipes aux choix de design qui ont été faits par la suite**.
+
+Je pense qu'on retrouve assez clairement les besoins à l'origine des 2 atouts que je citais en début d'article : besoin d'être guidé par le comportement de l'utilisateur, et besoin de fédérer et de communiquer sur les choix de concepetion.
+
+##Je suis convaincu ! ... comment on fait ?
+
+Il existe sans doute de nombreuses méthodes. Et je vous invite à faire quelques recherches sur le web pour en découvrir plusieurs.
+
+De mon côté, voici ce que je retiens de mes expériences dans le domaine :
+
+-	Vos personas doivent **inspirer** (inspirer les designers, inspirer les intervenants,...). Il est donc nécessaire qu'ils soient **crédibles**. Et pour cela il est important que tout le monde joue le jeu. Il faut absolument éviter tout ce qui pourrait ramener le persona au rang d'outil ou de simple création d'entreprise. **Vous devez traiter vos personas comme de vrais utilisateurs de votre produit** car vos interlocuteurs ne réagiront pas de la même façon si ils ont clairement conscience d'utiliser un outil que si ils parlent d'utilisateurs (même si ils savent au fond qu'Enrico n'existe pas).  
+Par exemple, évitez de dire dans vos communications "On a décidé qu'Enrico habitait à Paris, c'est pourquoi..."... vous ramenez Enrico au rang d'outil et il serait sans doute plus efficace de dire quelque chose comme "Enrico habite Paris, c'est pourquoi...".
+-	La définition de personas doit être menée par le designer, mais **elle doit faire intervenir un maximum de personnes** susceptibles de l'utiliser (développeurs, chefs de produits, équipes marketing, décideurs,...). Ca va de paire avec le 1er point en fait. **Il est plus simple de "croire" au persona, lorsqu'on a participé à son élaboration**. On comprend mieux pourquoi Enrico est Enrico. Vous aurez moins de chance de rencontrer des gens réticents au concept de persona parmi ceux qui ont participé à sa création.
+-	La définition de personas doit être **basée sur des données**. C'est encore un principe très important. Pour que votre persona soit crédible et vivant, il est important que les choix faits lors de sa définition soient basés sur des données. Si votre persona doit refléter une base d'utilisateurs qui existe déjà, il est en général assez simple de se procurer des données sur l'existant (tranches d'âges, localisation, équipement informatique,...). En revanche pour un persona qui doit vous projeter vers une nouvelle cible (dans le cas d'un nouveau produit par exemple), il ne faut surtout pas croire qu'il suffit d'imaginer l'utilisateur idéal. Vous devez absolument trouver un moyen d'apporter une base solide à votre persona (entretiens avec des utilisateurs potentiels par exemple, étude des utilisateurs de concurrents,...).
+-	Il est important de commencer par définir 2 ou 3 objectifs de votre persona dans l'utilisation de votre produit. C'est peut être l'élément le plus utile de votre persona, car il permet de comprendre la relation persona-produit.
+-	Les personas sont la plupart du temps spécifiques à un produit. Si vous designez pour plusieurs produits, il n'aurait pas de sens d'utiliser les mêmes personas pour tous ces produits alors que la cible, ou l'utilisation est différente.
+-	Le support et la façon dont vous présentez vos personas sont également des facteurs importants. Un post-it sur un mur avec une liste de caractéristiques n'aura pas le même effet qu'un document avec une ou plusieurs photos, quelques listes pour résumer les points importants, mais surtout de vrais textes qui permettent aux gens de réellement se projeter dans le persona. Vous devez construire une histoire jusqu'au bout.
+-	Le nombre de personas nécessaires par produit peut varier... moins vous aurez de personas, plus chaque persona sera efficace (il guidera plus facilement les choix, il sera plus "mémorable",...). Ne vous bridez pas néanmoins, il ne faut pas hésiter à créer des personas pour refléter des comportements d'utilisation importants.
+-	Comme dans beaucoup d'exercices, il est important de ne pas s'éparpiller et de se concentrer sur ce qui est vraiment important. **Plus votre persona sera fourni, plus les informations réellement importantes seront diluées**. D'un autre côté, il ne faut pas non plus tomber dans le inverse versant qui consisterait à ne définir qu'une liste de caractéristiques relative à votre produit. Il ne faut pas oublier que votre persona devra vivre. C'est donc un juste équilibre à trouver entre éléments nécessaires pour votre produit, éléments nécessaires pour la crédibilité du persona, et éléments superflux.
+-	La définition de personas n'est qu'un début, **le plus important étant ensuite d'amener ces personas à intervenir dans tous les choix de design, et dans toutes les prises de décisions**. Pas besoin d'explications... si vous décidez de créer des personas.... utilisez les !
+
+Par exemple, regardez comme de simples photos peuvent inspirer et raconter une personalité :
+[http://www.flickr.com/photos/jasontravis/sets/72157603258446753/](http://www.flickr.com/photos/jasontravis/sets/72157603258446753/)
+
+Je trouve aussi que la consultation de certains profils [pinterest](http://www.pinterest.com "pinterest pour la définition de personas") peut inspirer la construction de documents réalistes.

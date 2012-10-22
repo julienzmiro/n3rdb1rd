@@ -1,0 +1,48 @@
+!!! 5
+html.no-js(lang='en')
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+		title #{work.title} - n3rdb1rd.com - Online portfolio of Julien Zmiro : UI / UX designer & frontend developper
+		meta(name="description", content="Online portfolio of Julien Zmiro : UI / UX designer & frontend developper")
+		meta(name="author", content="Julien Zmiro")
+		meta(name="viewport", content='width=device-width, initial-scale=1')
+		link(rel='stylesheet', href='/stylesheets/style-min.css')
+		//if lt IE 9
+			link(rel='stylesheet', href='/stylesheets/ie.css')
+		link(rel='stylesheet', media="all and (max-width: 880px)", href='/stylesheets/style-m-min.css')
+		link(rel='stylesheet', href='/stylesheets/work-min.css')
+		link(rel='stylesheet', media="all and (max-width: 880px)", href='/stylesheets/work-m-min.css')
+		script(src='/javascripts/libs/modernizr-2.0.6.min.js')
+	body(id=work.cssId)
+		hr
+		div#container
+			nav#mainNav
+				div#mainNavContainer
+					h1#logo
+						a(href="/", title="n3rdb1rd - Online portfolio of Julien Zmiro : UI / UX designer & frontend developper")#logoLink
+							span n3rdb1rd
+					div#mainNavLinks
+						a(href="/portfolio", title="Portfolio")#portfolioLink.mainNavLink.current Portfolio
+						a(href="/journal", title="Journal").mainNavLink Journal
+						a(href="/contact", title="Contact").mainNavLink Contact
+			- var content = work.body
+					!= content
+			footer
+				a.twitter-share-button(href="https://twitter.com/share", data-lang="en", data-count="none", data-url="http://www.n3rdb1rd.com/portfolio/" + work.path, data-text=work.title + " | ") Tweet
+				br.clear
+		script(src="/javascripts/libs/jquery-1.7.1.min.js")
+		script(src='/javascripts/work-min.js')
+		//- Twitter
+		script
+			!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+		//- change UA-XXXXX-X to your id and outdent the following:
+		script
+			var _gaq=[['_setAccount','UA-27806619-1'],['_trackPageview'],['_trackPageLoadTime']];
+			(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+			g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+			s.parentNode.insertBefore(g,s)}(document,'script'));
+		//if lt IE 7
+			script(defer, src='//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js')
+			script(defer)
+				window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})

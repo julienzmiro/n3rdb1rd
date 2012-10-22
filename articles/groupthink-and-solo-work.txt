@@ -1,0 +1,23 @@
+title: Groupthink and solo work
+date: 2012/02/14
+pinit: false
+>-------<
+I recently read [an article by Alan Cooper about groupthink](http://www.cooper.com/journal/2012/01/eye_of_brainstorm.html "an article by Alan Cooper about groupthink"). This article was a response to [another excellent post from the New York times](http://www.nytimes.com/2012/01/15/opinion/sunday/the-rise-of-the-new-groupthink.html "another excellent post from the New York times").  
+I mainly agree with everything written in both articles. However, here is my personal feeling about this subject.
+
+I always thought that brainstorming sessions are very difficult to handle and involve a level of difficulty that is under-estimated in companies ("we should do a brainstorming for this question... more heads = more ideas !").
+
+I can see two issues with brainstorming and groupthink :
+
+-    It can be very difficult to reach a consensus and this can lead to weak decisions (the kind of decision that have the less risks to bother anybody). This can be dramatic particullary in design because **when trying to satisfy everybody you almost always produce something that really match to none of your initial goals.** A design need strong decisions based on users' needs and on designers know-how.
+-    It is always very difficult to manage human relationships. When driving group process such as brainstorming, you have to deal with very complicated human behaviors (leaders vs followers, group effects, shyness,...). You can miss a lot of good ideas just because individual minds are overwhelmed by the group relationships. It is very easy for a person to definitively forget an initial idea just because everybody seems to agreed on a solution. Despite the fact that this idea could be the best way to approach the problem.
+
+On the other side, individual work also encounters some issues :
+
+-    In a certain way it is true that more heads lead to more ideas. A single guy will not have the same point of view than 10 people and so will not always be able to suggest as much solution as a group (if we forget the groupthink issues).
+-    Groups can be extremely efficient when dealing about ideas' bounces. An idea can bounce from one mind to another and produce something new (by contradiction or agreement) very quickly. It is one of the most powerful design process in my opinion. And you miss it completely by designing alone.
+
+So how could we get the best of both groupthink and solo work ?  
+I think that the answer is in the pace of work.  
+In my opinion, **we should always approach this kind of process in 2 iterative steps : an individual reflection followed by a group confrontation.**  
+The idea is to let everybody free to take any personal direction and to tackle the problem on his own way. Only after that, it is interesting to compare individual works, to bounce on suggestions, to criticize, and to give any interesting feedback. There is probably a lot of ways to do that (meetings similar to brainstorming, a board with wireframes, or an url with prototypes for instance) but at the end you should simply be able to expose individual ideas and to collect group's feedback on them.

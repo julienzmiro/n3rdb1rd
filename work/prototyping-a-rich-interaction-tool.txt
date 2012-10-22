@@ -1,0 +1,68 @@
+title: Prototyping a rich interaction tool
+rank: 002
+cssId: workPrototypePhotobox
+>-------< 
+<header>
+	<div id="workPrototypePhotoboxVisu">
+		<img src="/images/portfolio/prototyping-a-rich-interaction-tool/gear.png" id="workPrototypePbxGearLarge" />
+		<img src="/images/portfolio/prototyping-a-rich-interaction-tool/gear-small.png" id="workPrototypePbxGearSmall" />
+	</div>
+	<h1 id="workTitle">Prototyping a rich interaction tool</h1>
+	<p class="workMeta"><span>2012</span> - <span>Photobox</span></p>
+	<p>This project is a small part of the whole design of the books' creation tool that I did at Photobox.<br />
+	This tool allows users to create personalised books with their own photos.</p>
+	<p> This prototype is about a simple page of the creation tool that displays all the pages of the book, and that allows people to do simple and generic actions. We called this page "Organise your book".</p>
+	<a href="http://www.n3rdb1rd.com/prototypes/pbx-organise-pages/organise-pages.html" title="View the prototype" class="prototypingAtPbxProtoBtn">View the prototype</a>
+</header>
+<section id="content">
+	<article class="work">
+		<h3>How this screen came to be</h3>
+		<p>Before the creation of this screen, users had to start their book with an empty double page and a lot of very specific tools (photos uploading, edition, captions, backgrounds, layouts, images libraries, book options,...). It was really hard to start this way and to dive into the details of the book so quickly. Beginners were simply overwhelmed.</p>
+		<p>We tried to offer a way to start the creation process in a more "natural" way.<br />
+		In a lot of human activities people tend to start with the big picture before going into details gradually. I think that it helps to imagine the shape of the creation (the same kind of process that is used in painting or drawing when artists start by roughly placing and shaping main elements before handling details).</p>
+		<figure>
+			<img src="/images/portfolio/prototyping-a-rich-interaction-tool/organise-pages.jpg" alt="The main view of organise pages" />
+			<figcaption>Here is a screenshot of the view that we created.</figcaption>
+		</figure>
+		<p>On this screen, we wanted to allow the user to : have a good preview of its book and of the context; handle global actions (actions that will be applied on the whole book and that are generally boring to do page by page) without being polluted by too much specific actions; handle other actions in a kind of "easy" automatic way (for instance when the user drops a photo in a page, the photo is automatically placed in a good layout).</p>
+		<p>All along the design process, we faced two remaining questions :<br />
+			<ul>
+				<li>How can we take care of all the boring tasks for the user ?</li>
+				<li>How can we adress our product to both beginners and advanced users (this kind of rich tool implies a large difference of knowledge in its users) ?</li>
+			</ul>
+		</p>
+		<p>To answer to the first of these 2 questions, this screen allows the user to quickly and easily take care of the boring tasks (tasks where the user can not really express its creativity such as organising photos and pages, or applying a new layout to all the chapter pages).<br />
+		Concerning the second question, I did not wanted an explicit "mode" selection from the user. Users do not know if they are beginners or advanced users, and they do not have to know that. Moreover, this kind of choice would force us to explain differences between these modes which is something always very complicated and delicate.<br />
+		Take a look at this screenshot from the range page of Shutterfly, one of the main Photobox' competitors. First, Shutterfly needs to take a lot of user's attention to try to explain the differences between the 2 modes. It is always a difficult process, and even if it works, Shutterfly is still asking the user a very hard choice in a early stage of the user journey. User has to choose to give up some features that he does not even know.</p>
+		<figure>
+			<img src="/images/portfolio/prototyping-a-rich-interaction-tool/shutterfly-2-modes.jpg" alt="Shutterfly mode selection" />
+			<figcaption>It is just as a restaurant that requires you to choose your dessert at the begining of your lunch...</figcaption>
+		</figure>
+		<p>At Photobox, I believed that the "Organise your book" view allowed us to subtely offer a kind of easy mode to start the creation with guided actions. Only when and if the user wants to go into details, the other part of the application offers more advanced features.</p>
+		<h3>How it works</h3>
+		<p>The most important part of this screen is the large view of all the pages of the book where most of the user's interactions will take place.<br />
+		At the bottom of the page, we have what we called "the library". It is the place where the user will find all the elements that he can use in order to create its book (photos, layouts, backgrounds,...). By default, the photos tab is displayed. If you already read my other case study about <a href="http://www.n3rdb1rd.com/portfolio/designing-a-better-user-experience-at-photobox" title="Designing a better upload experience at Photobox">the upload experience</a>, you would have noticed that this prototype use an old version of the library. That is just because the upload experience work have been done after.<br />
+		The last important part of this screen is the toolbar at the top of the pages view, where the user can find contextual actions (actions that are only useful on this specific part of the application). Here the user can add more pages, or remove pages.</p>
+		<p>So, the user's goal behind this screen is "I want to easily and softly start the creation of my book and be able to roughly and quickly handle the boring part of my creation". This user's goal answers directly to the 2 issues that when defined earlier. I will not list every user's tasks related to this goal, but at the end the user can place photos, apply backgrounds and layouts, add / remove pages, change the order of pages,...</p>
+		<h3>The reasons why we created a prototype</h3>
+		<p>From that point, it was clear that we will have to deal with a lot of "rich interactions". The design decisions required for this work would have been hard to show on a static mockup.<br />
+		This made this screen a perfect candidate for a prototype !<p>
+		<p>As described <a href="http://www.n3rdb1rd.com/journal/designing-in-browser-or-tools-vs-intentions" title="An article about design in browser">in this article</a>, I chose to avoid Photoshop on this project. Actually, I already defined most of the visual style of the application on other projects, so Photoshop would not have added any value.<br />
+		So, no Photoshop at all, I directly started to design... on paper. The user journey, the workflow, the layout have been first defined on paper. Of course, almost every design project starts on paper, but I tried to spend a lot of time to work this way as I knew that I would have to switch directlty on the prototype after that.</p>
+		<p>At the end, I was pretty confident about the design decisions that I made and I defined almost all the possible interactions (photos and pages drag and drop mainly).<br />
+		I then tried to clearly define the scope of my prototype. I knew that I could spend 2 weeks to build all the features of that screen. I just wanted to validate or communicate :<br />
+			<ul>
+				<li>All the "rich interactions" (mainly drag and drop of photos and pages).</li>
+				<li>The full screen view of this layout.</li>
+			</ul>
+		</p>
+		<p>I spent almost 3 days to create the prototype in HTML / CSS / JS. I recommand to open it on Firefox (it is a prototype so it might be a bit buggy).</p>
+		<p>I think that this prototype has been really helpful. First it helped me to understand and quickly adjust the design decisions that I made on paper and that can be difficult to imagine when dealing with this kind of interactions. Design is mainly about imagine and try iterations. For this purpose, prototypes are really useful on interactive products.<br />
+		But the most important benefit of it, is that it allowed me to easily communicate my design decisions to other people. I knew that I would have to face a lot of debates about all these interactions if I only worked on static mockups. And I knew that we would have miss the real design questions and issues by focusing on vague and subjective debates. With this prototype, everybody was able to directly <strong>see and try</strong>. This way, we all had the opportunity to discuss on more important questions and to work on things that really matter.</p>
+		<a href="http://www.n3rdb1rd.com/prototypes/pbx-organise-pages/organise-pages.html" title="View the prototype" class="prototypingAtPbxProtoBtn">View the prototype</a>
+		<p id="workFreelanceFooter">I am currently working as freelancer and always interested by new projects, so do not hesitate to <a href="http://www.n3rdb1rd.com/contact#email" title="The place where you can contact me">send me an email</a> if you think that we should work together !</p>
+	</article>
+</section>
+>-------< 
+<img src="/images/portfolio/prototyping-a-rich-interaction-tool/gear-light.png" id="workPrototypePbxGearLarge" />
+<img src="/images/portfolio/prototyping-a-rich-interaction-tool/gear-small-light.png" id="workPrototypePbxGearSmall" />

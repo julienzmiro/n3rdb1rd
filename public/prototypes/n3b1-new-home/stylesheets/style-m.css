@@ -1,0 +1,80 @@
+/*
+*
+*
+* Important : Minifier :
+* java -jar /usr/local/yuicompressor/build/yuicompressor-2.4.7.jar /Users/julienzmiro/Sites/jz/n3rdb1rd/public/stylesheets/style-m.css -o /Users/julienzmiro/Sites/jz/n3rdb1rd/public/stylesheets/style-m-min.css --charset utf-8
+*
+*/
+
+/* ==|== mobile styles =====================================================
+   Author: Julien Zmiro
+   ========================================================================== */
+hr { 
+  position : static;
+}
+#container {
+  width : 90%;
+  padding : 20px 0;
+}
+nav {
+	width : 100%;
+	text-align : center;
+	position : static;
+}
+nav h1,
+nav h1 a {
+  text-align : center;
+}
+nav h1 a {
+  background-position : 50% 0;
+}
+.mainNavLink {
+  height : 35px;
+  line-height : 35px;
+}
+nav.menuBottom {
+  margin : 30px 0;
+} 
+nav.menuBottom a:hover span {
+  position : absolute;
+  width : 200px;
+  top : 300px;
+  left : 27%;
+} 
+section {
+  width : 100%;
+  margin : 0;
+  padding : 0;
+  margin-top : 30px;
+}
+form {
+  width : 90%;
+}
+form label {
+  float : none;
+  width : auto;
+  margin : 0;
+  text-align : left;
+}
+form input,
+form textarea {
+  width : 100%;
+}
+.icoMe {
+  width: 60px;
+  height: 60px;
+  margin: 0 8px 0 0;
+}
+.journalArticle .date {
+  font-size: 10px;
+  width: 20%;
+}
+.journalArticle h1 {
+  font-size: 14px;
+}
+.journalArticle .journalReadLink {
+  width: 5%;
+}
+.journalArticle:hover .journalReadLink span {
+  display: none;
+}

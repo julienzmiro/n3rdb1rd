@@ -1,0 +1,596 @@
+/* Add a padding on top of the page to display headers of the admin */
+body {
+	padding-top : 55px;
+}
+
+/**************************************************
+Containers
+**************************************************/
+#mjAdmin {
+	position : absolute;
+	top : 0;
+	left : 0;
+	font-family : arial, helvetica, sans serif;
+	font-size : 1em;
+	width : 100%;
+}
+#mjAdmin a:hover {
+	text-decoration : none;
+}
+
+/***********************
+Main header
+***********************/
+#mjMainHeader {
+	position : fixed;
+	z-index : 980;
+	top : 0;
+	left : 0;
+	height : 20px;
+	width : 100%;
+	background : #fff;
+	margin : 0;
+	padding : 0 20px;
+	line-height : 20px;
+}
+#mjMainHeader .mjLeft,
+#mjMainHeader .mjRight {
+	position : absolute;
+	top : 0;
+	width : auto;
+	margin : 0;
+	padding : 0;
+}
+#mjMainHeader .mjLeft {
+	left : 0;
+	margin-left : 20px;
+}
+#mjMainHeader .mjRight {
+	right : 0;
+	margin-right : 60px;
+}
+#mjMainHeader .mjLeft p,
+#mjMainHeader .mjRight a {
+	font-size : 14px;
+	font-weight : bold;
+	color : #737373;
+	margin : 0;
+	padding : 0;
+}
+#mjMainHeader .mjRight a {
+	font-weight : normal;
+	font-size : 12px;
+}
+#mjMainHeader .mjLeft p span {
+	font-weight : normal;
+	color : #9f9f9f;
+	font-size : 12px;
+}
+
+/***********************
+Sub header
+***********************/
+#mjSubHeader {
+	position : fixed;
+	z-index : 979;
+	top : 20px;
+	left : 0;
+	height : 35px;
+	width : 100%;
+	margin : 0;
+	padding : 0 20px;
+	line-height : 35px;
+	border-bottom : 1px solid #0e0e0e;
+	background: linear-gradient(bottom, rgb(36,36,36) 8%, rgb(46,46,46) 65%, rgb(34,34,34) 100%) !important;
+	background: -moz-linear-gradient(bottom, rgb(36,36,36) 8%, rgb(46,46,46) 65%, rgb(34,34,34) 100%);
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0.08%, rgb(36,36,36)), color-stop(0.65, rgb(46,46,46)), color-stop(1, rgb(34,34,34)));
+	background: -webkit-linear-gradient(bottom, rgb(36,36,36) 8%, rgb(46,46,46) 65%, rgb(34,34,34) 100%);
+	background: -o-linear-gradient(bottom, rgb(36,36,36) 8%, rgb(46,46,46) 65%, rgb(34,34,34) 100%);
+	background: -ms-linear-gradient(bottom, rgb(36,36,36) 8%, rgb(46,46,46) 65%, rgb(34,34,34) 100%);
+	box-shadow : 0 0 5px 2px rgba(0,0,0,.6);
+}
+#mjSubHeader .mjLeft,
+#mjSubHeader .mjRight {
+	margin : 0;
+	padding : 0;
+	height : 35px;
+	position : absolute;
+	top : 0;
+	line-height : 35px;
+}
+#mjSubHeader .mjLeft {
+	width : auto;
+	left : 20px;
+}
+#mjSubHeader .mjRight {
+	width : auto;
+	right : 20px;
+	margin-right : 60px;
+}
+#mjSubHeader .mjLeft a {
+	color : #bfbfbf;
+	font-size : 12px;
+	font-weight : bold;
+	text-decoration : none;
+	display : block;
+	float : left;
+	padding : 0 10px 0 35px;
+}
+#mjSubHeader .mjLeft a#mjSiteAdminLink {
+	background : url(img/ico_clockwork.png) 10px center no-repeat;
+}
+#mjSubHeader .mjLeft a#mjSiteAdminLink:hover {
+	color : #fff;
+	background : url(img/ico_clockwork-hover.png) 10px center no-repeat;
+}
+#mjSubHeader .mjLeft a#mjSiteAdminLink.open {
+	color : #fff;
+	background : #333 url(img/ico_clockwork-hover.png) 10px center no-repeat;
+}
+#mjSubHeader .mjLeft a#mjPageAdminLink {
+	background : url(img/ico_page.png) 10px center no-repeat;
+}
+#mjSubHeader .mjLeft a#mjPageAdminLink:hover {
+	color : #fff;
+	background : url(img/ico_page-hover.png) 10px center no-repeat;
+}
+#mjSubHeader .mjLeft a#mjPageAdminLink.open {
+	color : #fff;
+	background : #333 url(img/ico_page-hover.png) 10px center no-repeat;
+}
+
+
+/**************************************************
+UI elements
+**************************************************/
+.mjMainButton {
+	border-radius : 3px;
+	background: linear-gradient(top, #49c1f0 0%,#2cafe3 100%) !important;
+	background: -moz-linear-gradient(top, #49c1f0 0%, #2cafe3 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#49c1f0), color-stop(100%,#2cafe3));
+	background: -webkit-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	background: -o-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	background: -ms-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	font-size : 12px;
+	font-weight : bold;
+	color : #f5f5f5;
+	margin : 0;
+	padding : 0 20px;
+	height : 22px;
+	line-height : 20px;
+	border : 1px solid #1e9ed2;
+	box-shadow: inset 0 0 1px 1px rgba(255,255,255,.4);
+	cursor : pointer;
+	text-shadow: 1px 1px 3px rgba(0,0,0,.2);
+}
+.mjMainButton:hover {
+	background: linear-gradient(top, #64d3ff 0%,#33abe7 100%) !important;
+	background: -moz-linear-gradient(top, #64d3ff 0%, #33abe7 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#64d3ff), color-stop(100%,#33abe7));
+	background: -webkit-linear-gradient(top, #64d3ff 0%,#33abe7 100%);
+	background: -o-linear-gradient(top, #64d3ff 0%,#33abe7 100%);
+	background: -ms-linear-gradient(top, #64d3ff 0%,#33abe7 100%);
+	text-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	color : #fff;
+}
+.mjGreyButton {
+	border-radius : 3px;
+	background: linear-gradient(top, #414141 0%,#2e2e2e 100%) !important;
+	background: -moz-linear-gradient(top, #414141 0%, #2e2e2e 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#414141), color-stop(100%,#2e2e2e));
+	background: -webkit-linear-gradient(top, #414141 0%,#2e2e2e 100%);
+	background: -o-linear-gradient(top, #414141 0%,#2e2e2e 100%);
+	background: -ms-linear-gradient(top, #414141 0%,#2e2e2e 100%);
+	font-size : 12px;
+	font-weight : bold;
+	color : #bfbfbf;
+	margin : 0;
+	padding : 0 20px;
+	height : 22px;
+	line-height : 20px;
+	border : 1px solid #1b1b1b;
+	box-shadow: inset 0 0 1px 1px rgba(255,255,255,.13);
+	cursor : pointer;
+	text-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
+.mjGreyButton:hover {
+	background: linear-gradient(top, #505050 0%,#2d2d2d 100%) !important;
+	background: -moz-linear-gradient(top, #505050 0%, #2d2d2d 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#505050), color-stop(100%,#2d2d2d));
+	background: -webkit-linear-gradient(top, #505050 0%,#2d2d2d 100%);
+	background: -o-linear-gradient(top, #505050 0%,#2d2d2d 100%);
+	background: -ms-linear-gradient(top, #505050 0%,#2d2d2d 100%);
+	text-shadow: 1px 1px 3px rgba(0,0,0,.8);
+	color : #fff;
+}
+
+/**************************************************
+Utils
+**************************************************/
+.mjIsEditable {
+	-moz-box-shadow : 0px 0px 10px #48b8e6;
+	-webkit-box-shadow : 0px 0px 10px #48b8e6;
+	box-shadow : 0px 0px 10px #48b8e6;
+}
+.currentEditable {
+	-moz-box-shadow : 0px 0px 2px #48b8e6, 0px 0px 2px #48b8e6, 0px 0px 2px #48b8e6;
+	-webkit-box-shadow : 0px 0px 2px #48b8e6, 0px 0px 2px #48b8e6, 0px 0px 2px #48b8e6;
+	box-shadow : 0px 0px 2px #48b8e6, 0px 0px 2px #48b8e6, 0px 0px 2px #48b8e6;
+}
+.clear {
+	clear:both;
+}
+.mjHidden {
+	display:none !important;
+}
+#mjadminOverlay {
+	position : absolute;
+	top : 0;
+	left : 0;
+	background-color : #000;
+	opacity : 0.8;
+	z-index : 998;
+	width : 100%;
+	height : 500px;
+}
+.draggablePlaceholder {
+	border : 1px dashed #48b8e6;
+}
+#mjHelpEditionMessage {
+	color : #bfbfbf;
+	font-size : 12px;
+	font-style : italic;
+	margin : 0;
+}
+
+/**************************************************
+Toolbars
+**************************************************/
+.mjToolbar {
+	height : 35px;
+	padding-top : 5px;
+}
+.mjToolbarSection,
+.mjToolbarSection li,
+#mjSubHeader .mjLeft .mjToolbarSection li a,
+#mjSubHeader .mjLeft .mjDropdown,
+#mjSubHeader .mjLeft .mjToolbarTextField,
+#mjSubHeader .mjLeft #mjToolbarButtonChangeImage,
+#mjSubHeader .mjLeft #mjToolbarButtonRemoveImage {
+	display : block;
+	margin : 0;
+	padding : 0;
+	height : 23px;
+	float : left;
+}
+.mjToolbarSection {
+	border-radius : 2px;
+	border : 1px solid #1b1b1b;
+	background: linear-gradient(top, #414141 0%,#2e2e2e 100%) !important;
+	background: -moz-linear-gradient(top, #414141 0%, #2e2e2e 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#414141), color-stop(100%,#2e2e2e));
+	background: -webkit-linear-gradient(top, #414141 0%,#2e2e2e 100%);
+	background: -o-linear-gradient(top, #414141 0%,#2e2e2e 100%);
+	background: -ms-linear-gradient(top, #414141 0%,#2e2e2e 100%);
+	box-shadow: inset 0 0 1px 1px rgba(255,255,255,.13);
+	margin-right : 10px;
+}
+.mjToolbarSection li {
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a {
+	line-height : 23px;
+	width : 26px;
+	text-align : center;
+	border-right : 1px solid #1b1b1b;
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a:hover {
+	background: linear-gradient(top, #505050 0%,#2d2d2d 100%) !important;
+	background: -moz-linear-gradient(top, #505050 0%, #2d2d2d 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#505050), color-stop(100%,#2d2d2d));
+	background: -webkit-linear-gradient(top, #505050 0%,#2d2d2d 100%);
+	background: -o-linear-gradient(top, #505050 0%,#2d2d2d 100%);
+	background: -ms-linear-gradient(top, #505050 0%,#2d2d2d 100%);
+	box-shadow: inset 0 0 1px 1px rgba(255,255,255,.13);
+	color : #fff;
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a.mjSelected {
+	background: linear-gradient(top, #49c1f0 0%,#2cafe3 100%) !important;
+	background: -moz-linear-gradient(top, #49c1f0 0%, #2cafe3 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#49c1f0), color-stop(100%,#2cafe3));
+	background: -webkit-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	background: -o-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	background: -ms-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	box-shadow: inset 0 0 1px 1px rgba(255,255,255,.13);
+	color : #fff;
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a.mjLast {
+	border-right : none;
+}
+/* TODO : Remplacer les float par la bonne image */
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonAlignLeft {
+	background : url(img/ico_text_align_left.png) center center no-repeat;
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonAlignLeft:hover {
+	background : url(img/ico_text_align_left-hover.png) center center no-repeat;
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonAlignLeft.mjSelected {	
+	background: url(img/ico_text_align_left-hover.png) center center no-repeat, linear-gradient(top, #49c1f0 0%,#2cafe3 100%) !important;
+	background: url(img/ico_text_align_left-hover.png) center center no-repeat, -moz-linear-gradient(top, #49c1f0 0%, #2cafe3 100%);
+	background: url(img/ico_text_align_left-hover.png) center center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#49c1f0), color-stop(100%,#2cafe3));
+	background: url(img/ico_text_align_left-hover.png) center center no-repeat, -webkit-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	background: url(img/ico_text_align_left-hover.png) center center no-repeat, -o-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	background: url(img/ico_text_align_left-hover.png) center center no-repeat, -ms-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	box-shadow: inset 0 0 1px 1px rgba(255,255,255,.13);
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonAlignCenter {
+	background : url(img/ico_text_align_center.png) center center no-repeat;
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonAlignCenter:hover {
+	background : url(img/ico_text_align_center-hover.png) center center no-repeat;
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonAlignCenter.mjSelected {	
+	background: url(img/ico_text_align_center-hover.png) center center no-repeat, linear-gradient(top, #49c1f0 0%,#2cafe3 100%) !important;
+	background: url(img/ico_text_align_center-hover.png) center center no-repeat, -moz-linear-gradient(top, #49c1f0 0%, #2cafe3 100%);
+	background: url(img/ico_text_align_center-hover.png) center center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#49c1f0), color-stop(100%,#2cafe3));
+	background: url(img/ico_text_align_center-hover.png) center center no-repeat, -webkit-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	background: url(img/ico_text_align_center-hover.png) center center no-repeat, -o-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	background: url(img/ico_text_align_center-hover.png) center center no-repeat, -ms-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	box-shadow: inset 0 0 1px 1px rgba(255,255,255,.13);
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonAlignRight {
+	background : url(img/ico_text_align_right.png) center center no-repeat;
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonAlignRight:hover {
+	background : url(img/ico_text_align_right-hover.png) center center no-repeat;
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonAlignRight.mjSelected {	
+	background: url(img/ico_text_align_right-hover.png) center center no-repeat, linear-gradient(top, #49c1f0 0%,#2cafe3 100%) !important;
+	background: url(img/ico_text_align_right-hover.png) center center no-repeat, -moz-linear-gradient(top, #49c1f0 0%, #2cafe3 100%);
+	background: url(img/ico_text_align_right-hover.png) center center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#49c1f0), color-stop(100%,#2cafe3));
+	background: url(img/ico_text_align_right-hover.png) center center no-repeat, -webkit-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	background: url(img/ico_text_align_right-hover.png) center center no-repeat, -o-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	background: url(img/ico_text_align_right-hover.png) center center no-repeat, -ms-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	box-shadow: inset 0 0 1px 1px rgba(255,255,255,.13);
+}
+
+/* TODO : Remplacer les float par la bonne image */
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonFloatLeft {
+	background : url(img/ico_img_float_left.png) center center no-repeat;
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonFloatLeft:hover {
+	background : url(img/ico_img_float_left-hover.png) center center no-repeat;
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonFloatLeft.mjSelected {	
+	background: url(img/ico_img_float_left-hover.png) center center no-repeat, linear-gradient(top, #49c1f0 0%,#2cafe3 100%) !important;
+	background: url(img/ico_img_float_left-hover.png) center center no-repeat, -moz-linear-gradient(top, #49c1f0 0%, #2cafe3 100%);
+	background: url(img/ico_img_float_left-hover.png) center center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#49c1f0), color-stop(100%,#2cafe3));
+	background: url(img/ico_img_float_left-hover.png) center center no-repeat, -webkit-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	background: url(img/ico_img_float_left-hover.png) center center no-repeat, -o-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	background: url(img/ico_img_float_left-hover.png) center center no-repeat, -ms-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	box-shadow: inset 0 0 1px 1px rgba(255,255,255,.13);
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonFloatNone {
+	background : url(img/ico_img_float_none.png) center center no-repeat;
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonFloatNone:hover {
+	background : url(img/ico_img_float_none-hover.png) center center no-repeat;
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonFloatNone.mjSelected {	
+	background: url(img/ico_img_float_none-hover.png) center center no-repeat, linear-gradient(top, #49c1f0 0%,#2cafe3 100%) !important;
+	background: url(img/ico_img_float_none-hover.png) center center no-repeat, -moz-linear-gradient(top, #49c1f0 0%, #2cafe3 100%);
+	background: url(img/ico_img_float_none-hover.png) center center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#49c1f0), color-stop(100%,#2cafe3));
+	background: url(img/ico_img_float_none-hover.png) center center no-repeat, -webkit-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	background: url(img/ico_img_float_none-hover.png) center center no-repeat, -o-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	background: url(img/ico_img_float_none-hover.png) center center no-repeat, -ms-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	box-shadow: inset 0 0 1px 1px rgba(255,255,255,.13);
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonFloatRight {
+	background : url(img/ico_img_float_right.png) center center no-repeat;
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonFloatRight:hover {
+	background : url(img/ico_img_float_right-hover.png) center center no-repeat;
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonFloatRight.mjSelected {	
+	background: url(img/ico_img_float_right-hover.png) center center no-repeat, linear-gradient(top, #49c1f0 0%,#2cafe3 100%) !important;
+	background: url(img/ico_img_float_right-hover.png) center center no-repeat, -moz-linear-gradient(top, #49c1f0 0%, #2cafe3 100%);
+	background: url(img/ico_img_float_right-hover.png) center center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#49c1f0), color-stop(100%,#2cafe3));
+	background: url(img/ico_img_float_right-hover.png) center center no-repeat, -webkit-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	background: url(img/ico_img_float_right-hover.png) center center no-repeat, -o-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	background: url(img/ico_img_float_right-hover.png) center center no-repeat, -ms-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	box-shadow: inset 0 0 1px 1px rgba(255,255,255,.13);
+}
+
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonAddImage {
+	background : url(img/ico_image.png) center center no-repeat;
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonOrdoList {
+	background : url(img/ico_ordo_list.png) center center no-repeat;
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonOrdoList:hover {
+	background : url(img/ico_ordo_list-hover.png) center center no-repeat;
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonOrdoList.mjSelected {	
+	background: url(img/ico_ordo_list-hover.png) center center no-repeat, linear-gradient(top, #49c1f0 0%,#2cafe3 100%) !important;
+	background: url(img/ico_ordo_list-hover.png) center center no-repeat, -moz-linear-gradient(top, #49c1f0 0%, #2cafe3 100%);
+	background: url(img/ico_ordo_list-hover.png) center center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#49c1f0), color-stop(100%,#2cafe3));
+	background: url(img/ico_ordo_list-hover.png) center center no-repeat, -webkit-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	background: url(img/ico_ordo_list-hover.png) center center no-repeat, -o-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	background: url(img/ico_ordo_list-hover.png) center center no-repeat, -ms-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	box-shadow: inset 0 0 1px 1px rgba(255,255,255,.13);
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonUnordoList {
+	background : url(img/ico_unordo_list.png) center center no-repeat;
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonUnordoList:hover {
+	background : url(img/ico_unordo_list-hover.png) center center no-repeat;
+}
+
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonUnordoList.mjSelected {	
+	background: url(img/ico_unordo_list-hover.png) center center no-repeat, linear-gradient(top, #49c1f0 0%,#2cafe3 100%) !important;
+	background: url(img/ico_unordo_list-hover.png) center center no-repeat, -moz-linear-gradient(top, #49c1f0 0%, #2cafe3 100%);
+	background: url(img/ico_unordo_list-hover.png) center center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#49c1f0), color-stop(100%,#2cafe3));
+	background: url(img/ico_unordo_list-hover.png) center center no-repeat, -webkit-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	background: url(img/ico_unordo_list-hover.png) center center no-repeat, -o-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	background: url(img/ico_unordo_list-hover.png) center center no-repeat, -ms-linear-gradient(top, #49c1f0 0%,#2cafe3 100%);
+	box-shadow: inset 0 0 1px 1px rgba(255,255,255,.13);
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonItalic {
+	font-style : italic;
+}
+#mjSubHeader .mjLeft .mjToolbarSection li a#mjToolbarButtonUnderline {
+	text-decoration : underline;
+}
+#mjSubHeader .mjLeft .mjDropdown,
+#mjSubHeader .mjLeft .mjToolbarTextField {
+	border : 1px solid #b8c3c6;
+	border-radius : 3px;
+	color : #737373;
+	font-size : 12px;
+	font-weight : normal;
+	margin : 1px 0 0 0;
+	padding : 0 10px;
+	line-height : 21px;
+	height : 21px;
+}
+#mjSubHeader .mjLeft .mjDropdown {
+	background : #fff url(img/ico_arrow_bottom.png) 160px center no-repeat;
+	width : 160px;
+	margin-right : 10px;
+}
+#mjSubHeader .mjLeft .mjToolbarTextField {
+	margin-right : 10px;
+}
+#mjSubHeader .mjLeft .mjDropdown.mjSelected,
+#mjSubHeader .mjLeft .mjToolbarTextField.mjSelected {
+	border : 1px solid #1e9ed2;
+}
+#mjSubHeader .mjLeft .mjDropdownLayer {
+	border : 1px solid #b8c3c6;
+	background : #fff;
+	border-radius : 3px;
+	color : #737373;
+	font-size : 12px;
+	font-weight : normal;
+	margin : 0;
+	padding : 0;
+	width : 250px;
+	position : absolute;
+}
+#mjSubHeader .mjLeft .mjDropdownLayer a {
+	display : block;
+	color : #737373;
+	margin : 0;
+	padding : 3px 10px;
+	width : 230px;
+	line-height : 21px;
+	height : 21px;
+}
+#mjSubHeader .mjLeft .mjDropdownLayer a:hover {
+	background : #ebebeb;
+}
+#mjSubHeader .mjLeft #mjToolbarButtonChangeImage,
+#mjSubHeader .mjLeft #mjToolbarButtonRemoveImage {
+	color : #bfbfbf;
+	margin : 0 10px 0 0 ;
+	padding : 0 20px;
+	font-size : 12px;
+	font-weight : bold;
+	height : 22px;
+}
+#mjSubHeader .mjLeft #mjToolbarButtonChangeImage:hover,
+#mjSubHeader .mjLeft #mjToolbarButtonRemoveImage:hover {
+	background: linear-gradient(top, #505050 0%,#2d2d2d 100%) !important;
+	background: -moz-linear-gradient(top, #505050 0%, #2d2d2d 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#505050), color-stop(100%,#2d2d2d));
+	background: -webkit-linear-gradient(top, #505050 0%,#2d2d2d 100%);
+	background: -o-linear-gradient(top, #505050 0%,#2d2d2d 100%);
+	background: -ms-linear-gradient(top, #505050 0%,#2d2d2d 100%);
+	text-shadow: 1px 1px 3px rgba(0,0,0,.8);
+	color : #fff;
+}
+#mjSubHeader .mjLeft .mjToolbar p {
+	font-size : 12px;
+	color : #bfbfbf;
+	float : left;
+	line-height : 26px;
+	margin : 0 10px 0 0;
+	padding : 0;
+}
+
+#mjSubHeader .mjLeft #mjToolbarNewPageDetails {
+	padding : 0 10px 4px;
+	font-weight : bold;
+	font-size : 16px;
+	height : 27px;
+	float : left;
+}
+
+/**************************************************
+Popups
+**************************************************/
+.mjPopup {
+	border-radius: 5px;
+	background-color : #f5f5f5;
+	position : absolute;
+	padding : 20px 20px 0px;
+	margin : 0;
+	font-family : arial, helvetica, sans serif;
+	color : #737373;
+	box-shadow: 2px 2px 10px 5px rgba(0,0,0,.5);
+}
+.mjPopup header h1 {
+	font-size : 18px;
+	font-weight : bold;
+	margin-bottom : 30px;
+}
+.mjPopup form {
+	margin : 0 0 10px;
+	padding : 0;
+	width : 100%;
+}
+.mjPopup form input {
+	border-radius : 3px;
+	background: #fff;
+	font-size : 12px;
+	color : #b5b5b5;
+	margin : 0;
+	padding : 0 10px;
+	height : 25px;
+	line-height : 25px;
+	width : 355px;
+	border : 1px solid #b5b5b5;
+	box-shadow: inset 1px 1px 3px 1px rgba(0,0,0,.1);
+}
+.mjPopup a {
+	color : #737373;
+}
+.mjPopup a:hover {
+	text-decoration : none;
+}
+.mjPopup footer {
+	margin : 20px 0 0 0;
+	padding : 10px 20px;
+	text-align : right;
+	display : block;
+	width : 100%;
+	border-top : 1px solid #d0d0d0;
+	background-color : #e9e9e9;
+	margin-left : -20px;
+	border-bottom-right-radius : 5px;
+	border-bottom-left-radius : 5px;
+	box-shadow: inset 1px 0 1px 1px #f4f4f4;
+}
+
+/***********************
+Login popup
+***********************/
+#mjLoginPopup {
+	width:400px;	
+}
+#mjLoginPopup a {
+	font-size : 11px;
+}
+#mjLoginPopup footer a {
+	font-size : 12px;
+	margin-right : 15px;
+}

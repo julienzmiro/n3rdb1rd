@@ -1,0 +1,42 @@
+body {
+  background: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 100px 0;
+  color: #3f3e3d;
+  font-family : Verdana, Helvetica, Arial, sans-serif;
+  font-size : 14px;
+  font-weight : lighter;
+  line-height : 20px;
+}
+a,
+a:visited,
+a:hover,
+a:focus {
+  color : #e98940;
+  text-decoration : none;
+  border-bottom : 1px dotted;
+}
+a:hover {
+  border-bottom : none;
+}
+.container {
+  width: 324px;
+  text-align: left;
+  margin: 10px auto 0;
+}
+.container p {
+  margin: 5px 0;
+}
+.container img {
+  float: left;
+  margin-right: 9px;
+}
+.content {
+  float: left;
+  width: 240px;
+}
+.content h1 {
+  font-size: 16px;
+  font-weight: bold;
+}

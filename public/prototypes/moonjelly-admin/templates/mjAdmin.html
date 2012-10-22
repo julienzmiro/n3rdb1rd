@@ -1,0 +1,96 @@
+<div id="mjAdmin">
+	<div id="mjadminOverlay" class="mjHidden"></div>
+	<div id="mjMainHeader">
+		<div class="mjLeft">
+		<p>Moonjelly<span> :: Influelse</span></p>
+		</div>
+		<div class="mjRight">
+		<a href="" title="Se d&eacute;connecter du mode administrateur" id="logoutButton">Se d&eacute;connecter</a>
+		</div>
+	</div>
+	<div id="mjSubHeader">
+		<div class="mjLeft">
+			<a href="" title="Administrer ce site" id="mjSiteAdminLink">Site</a>
+			<div id="mjSiteLayer" class="mjHidden mjDropdownLayer">
+				<a href="#" title="Changer le nom du site" id="mjSiteLayerName" class="mjToolbarButtonStyleLayerButton">Changer le nom du site</a>
+				<a href="#" title="Changer le th&egrave; du site" id="mjSiteLayerTheme" class="mjToolbarButtonStyleLayerButton">Changer le th&egrave; du site</a>
+				<a href="#" title="Organiser les pages" id="mjSiteLayerOrganisePages" class="mjToolbarButtonStyleLayerButton">Organiser les pages</a>
+				<a href="#" title="Changer de mot de passe" id="mjSiteLayerPwd" class="mjToolbarButtonStyleLayerButton">Changer de mot de passe</a>
+				<a href="#" title="D&eacute;tail du site" id="mjSiteLayerDetail" class="mjToolbarButtonStyleLayerButton">D&eacute;tail du site</a>
+			</div>
+			<a href="" title="Administrer cette Page" id="mjPageAdminLink">Page</a>
+			<div id="mjPageLayer" class="mjHidden mjDropdownLayer">
+				<a href="#" title="Changer le nom de cette page" id="mjPageLayerName" class="mjToolbarButtonStyleLayerButton">Changer le nom de cette page</a>
+				<a href="#" title="Changer la description de cette page" id="mjPageLayerDescription" class="mjToolbarButtonStyleLayerButton">Changer la description de cette page</a>
+				<a href="#" title="Ranger cette page" id="mjPageLayerSort" class="mjToolbarButtonStyleLayerButton">Ranger cette page</a>
+				<a href="#" title="Changer le mod&egrave;le de cette page" id="mjPageLayerTemplate" class="mjToolbarButtonStyleLayerButton">Changer le mod&egrave;le de cette page</a>
+				<a href="#" title="D&eacute;tail de cette page" id="mjPageLayerDetail" class="mjToolbarButtonStyleLayerButton">D&eacute;tail de cette page</a>
+			</div>
+			<p id="mjHelpEditionMessage" class="mjHidden">S&eacute;lectionnez l\'&eacute;l&eacute;ment de la page que vous souhaitez modifier</p>
+			<div id="mjTextButtons" class="mjToolbar mjHidden">
+				<ul class="mjToolbarSection">
+					<li><a href="#" id="mjToolbarButtonBold" class="mjToolbarButton" title="Gras (Ctrl+B)">B</a></li>
+					<li><a href="#" id="mjToolbarButtonItalic" class="mjToolbarButton" title="Italique (Ctrl+I)" >I</a></li>
+					<li><a href="#" id="mjToolbarButtonUnderline" class="mjToolbarButton" title="Soulignement (Ctrl+U)">U</a></li>
+				</ul>
+				<ul class="mjToolbarSection">
+					<li><a href="#" id="mjToolbarButtonAlignLeft" title="Aligner le text &agrave; gauche" class="mjToolbarButton">&nbsp;</a></li>
+					<li><a href="#" id="mjToolbarButtonAlignCenter" title="Aligner le text au centre" class="mjToolbarButton">&nbsp;</a></li>
+					<li><a href="#" id="mjToolbarButtonAlignRight" title="Aligner le text &agrave; droite" class="mjToolbarButton mjLast">&nbsp;</a></li>
+				</ul>
+				<ul class="mjToolbarSection">
+					<li><a href="#" id="mjToolbarButtonAddLink" title="Ajouter un lien vers une page (Ctrl+L)" class="mjToolbarButton">@</a></li>
+					<li><a href="#" id="mjToolbarButtonAddImage" title="Ajouter une image (Ctrl+G)" class="mjToolbarButton mjLast">&nbsp;</a></li>
+				</ul>
+				<ul class="mjToolbarSection">
+					<li><a href="#" title="Cr&eacute;er une liste ordonn&eacute;e (Ctrl+Alt+U)" id="mjToolbarButtonOrdoList" class="mjToolbarButton">&nbsp;</a></li>
+					<li><a href="#" title="Cr&eacute;er une liste &agrave; puces (Ctrl+Alt+O)" id="mjToolbarButtonUnordoList" class="mjToolbarButton mjLast">&nbsp;</a></li>
+				</ul>
+				<a href="#" id="mjToolbarButtonStyle" class="mjDropdown" title="Changer le style d\'affichage de votre texte">Paragraphe</a>
+				<div id="mjToolbarButtonStyleLayer" class="mjHidden mjDropdownLayer">
+					<a href="#" title="Changer en paragraphe (Ctrl+Alt+0)" id="mjToolbarButtonStyleP" class="mjToolbarButtonStyleLayerButton">Paragraphe</a>
+					<a href="#" title="Changer en tr&egrave;s grand titre (Ctrl+Alt+1)" id="mjToolbarButtonStyleH1" class="mjToolbarButtonStyleLayerButton">Tr&egrave;s grand titre</a>
+					<a href="#" title="Changer en grand titre (Ctrl+Alt+2)" id="mjToolbarButtonStyleH2" class="mjToolbarButtonStyleLayerButton">Grand titre</a>
+					<a href="#" title="Changer en titre moyen (Ctrl+Alt+3)" id="mjToolbarButtonStyleH3" class="mjToolbarButtonStyleLayerButton">Titre moyen</a>
+					<a href="#" title="Changer en petit titre (Ctrl+Alt+4)" id="mjToolbarButtonStyleH4" class="mjToolbarButtonStyleLayerButton">Petit titre</a>
+					<a href="#" title="Changer en tr&egrave;s petit titre (Ctrl+Alt+5)" id="mjToolbarButtonStyleH5" class="mjToolbarButtonStyleLayerButton mjLast">Tr&egrave;s petit titre</a>
+				</div>
+			</div>
+			<div id="mjImagesButtons" class="mjToolbar mjHidden">
+				<input id="mjToolbarFieldImageLegend" class="mjToolbarTextField mjToolbarButton" type="text" placeholder="Ajouter une l&eacute;gende" />
+				<ul class="mjToolbarSection">
+					<li><a href="#" id="mjToolbarButtonFloatLeft" title="Aligner l'image &agrave; gauche" class="mjToolbarButton">&nbsp;</a></li>
+					<li><a href="#" id="mjToolbarButtonFloatNone" title="Aligner l'image au centre" class="mjToolbarButton">&nbsp;</a></li>
+					<li><a href="#" id="mjToolbarButtonFloatRight" title="Aligner l'image &agrave; droite" class="mjToolbarButton mjLast">&nbsp;</a></li>
+				</ul>
+				<a href="#" id="mjToolbarButtonChangeImage" title="Changer l'image (Ctrl+G)" class="mjToolbarButton mjGreyButton">Changer l'image</a>
+				<a href="#" id="mjToolbarButtonRemoveImage" title="Supprimer l'image (Ctrl+G)" class="mjToolbarButton mjGreyButton">Supprimer l'image</a>
+			</div>
+			<div id="mjNewPageButtons" class="mjToolbar mjHidden">
+				<input id="mjToolbarFieldPageName" class="mjToolbarTextField mjToolbarButton" type="text" placeholder="Nom de votre page" />
+				<p>Cat&eacute;gorie : </p>
+				<a href="#" id="mjToolbarButtonCategory" class="mjDropdown" title="Classer cette page dans une cat&eacute;gorie">Aucune</a>
+				<div id="mjToolbarButtonCategoryLayer" class="mjHidden mjDropdownLayer">
+					<a href="#" title="Ne pas classer cette page" id="mjToolbarButtonCategoryNone" class="mjToolbarButtonCategoryLayerButton">Aucune</a>
+					<a href="#" title="Classer cette page dans 'articles'" id="mjToolbarButtonCategoryArticles" class="mjToolbarButtonCategoryLayerButton">Articles</a>
+					<a href="#" title="Classer cette page dans 'boutique'" id="mjToolbarButtonCategoryBoutique" class="mjToolbarButtonCategoryLayerButton">Boutique</a>
+				</div>
+				<p>Type : </p>
+				<a href="#" id="mjToolbarButtonType" class="mjDropdown" title="Donner un mod&egrave;le &agrave; cette page">Page</a>
+				<div id="mjToolbarButtonTypeLayer" class="mjHidden mjDropdownLayer">
+					<a href="#" title="Ce contenu est une page" id="mjToolbarButtonTypePage" class="mjToolbarButtonTypeLayerButton">Page</a>
+					<a href="#" title="Ce contenu est un article" id="mjToolbarButtonTypeArticle" class="mjToolbarButtonTypeLayerButton">Article</a>
+					<a href="#" title="Ce contenu est une page produit" id="mjToolbarButtonTypeProduit" class="mjToolbarButtonTypeLayerButton">Page produit</a>
+				</div>
+				<button id="mjToolbarNewPageDetails" title="D&eacute;tail de la page" class="mjGreyButton">+</a>
+			</div>
+		</div>
+		<div class="mjRight">
+			<button id="mjNewPageButton" title="Ajouter une nouvelle page &agrave; votre site" class="mjGreyButton">Cr&eacute;er une nouvelle page</button>
+			<button id="mjEditButton" title="Editer cette page de votre" class="mjMainButton">Editer la page</button>
+			<button id="mjDiscardButton" title="Annuler les changements effectu&eacute;s sur cette page" class="mjGreyButton mjHidden">Annuler</button>
+			<button id="mjSaveButton" title="Sauvegarder les changements effectu&eacute;s sur cette page" class="mjMainButton mjHidden">Sauvegarder</button>
+			<button id="mjCreateButton" title="Cr&eacute;er la page" class="mjMainButton mjHidden">Cr&eacute;er</button>
+		</div>
+	</div>
+</div>

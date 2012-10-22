@@ -1,0 +1,145 @@
+hr { 
+  position : static;
+}
+#container {
+  width : 90%;
+  padding : 20px 0;
+}
+nav {
+	width : 100%;
+	text-align : center;
+	position : static;
+}
+section article h1 {
+  margin : 0 0 5px 0;
+  font-size : 40px;
+  line-height: 46px;
+}
+nav h1,
+nav h1 a {
+  text-align : center;
+}
+nav h1 a {
+  background-position : 50% 0;
+}
+.mainNavLink {
+  height : 35px;
+  line-height : 35px;
+}
+nav.menuBottom {
+  margin : 30px 0;
+} 
+nav.menuBottom a:hover span {
+  position : absolute;
+  width : 200px;
+  top : 300px;
+  left : 27%;
+} 
+section {
+  width : 100%;
+  margin : 0;
+  padding : 0;
+  margin-top : 30px;
+}
+
+#contactBlockEmail form label {
+  margin-top: 5px;
+}
+form input,
+form textarea {
+  width : 100%;
+}
+#contactBlockEmail form textarea {
+  height: 150px;
+}
+
+.icoMe {
+  width: 60px;
+  height: 60px;
+  margin: 0 8px 0 0;
+}
+.journalArticle .date {
+  font-size: 10px;
+  width: 20%;
+}
+.journalArticle h1 {
+  font-size: 14px;
+}
+.journalArticle .journalReadLink {
+  width: 5%;
+}
+.journalArticle:hover .journalReadLink span {
+  display: none;
+}
+/*HOME*/
+#mainNav {
+  margin-top: 10px;
+}
+#content {
+  padding-top: 50px;
+}
+#homeScreen2 {
+  height: auto;
+}
+#homeScreen2 img {
+  position: static;
+  margin: 10px 0;
+}
+#homeImgRea2 {
+  z-index: 119;
+  -moz-transform: scale(1) rotate(0) translate(0px, 0px) skew(0deg, 0deg);
+  -webkit-transform: scale(1) rotate(0) translate(0px, 0px) skew(0deg, 0deg);
+  -o-transform: scale(1) rotate(0) translate(0px, 0px) skew(0deg, 0deg);
+  -ms-transform: scale(1) rotate(0) translate(0px, 0px) skew(0deg, 0deg);
+  transform: scale(1) rotate(0) translate(0px, 0px) skew(0deg, 0deg);
+}
+#homeImgRea3 {
+  z-index: 118;
+  -moz-transform: scale(1) rotate(0) translate(0px, 0px) skew(0deg, 0deg);
+  -webkit-transform: scale(1) rotate(0) translate(0px, 0px) skew(0deg, 0deg);
+  -o-transform: scale(1) rotate(0) translate(0px, 0px) skew(0deg, 0deg);
+  -ms-transform: scale(1) rotate(0) translate(0px, 0px) skew(0deg, 0deg);
+  transform: scale(1) rotate(0) translate(0px, 0px) skew(0deg, 0deg);
+}
+#homeImgRea4 {
+  z-index: 117;
+  -moz-transform: scale(1) rotate(0) translate(0px, 0px) skew(0deg, 0deg);
+  -webkit-transform: scale(1) rotate(0) translate(0px, 0px) skew(0deg, 0deg);
+  -o-transform: scale(1) rotate(0) translate(0px, 0px) skew(0deg, 0deg);
+  -ms-transform: scale(1) rotate(0) translate(0px, 0px) skew(0deg, 0deg);
+  transform: scale(1) rotate(0) translate(0px, 0px) skew(0deg, 0deg);
+}
+#homeScreen3 div #homeImgSuitedSquare,
+#homeScreen4 div #homeImgSmartSquare,
+#homeScreen5 div #homeImgHelpfulSquare {
+  left: 35%;
+}
+#homeScreen5 div #homeImgHelpfulGearBig {
+  left: 38%;
+}
+#homeScreen5 div #homeImgHelpfulGearSmall {
+  left: 55%;
+}
+#homeScreen5 div #homeImgHelpfulHeart {
+  left: 29%;
+}
+#homeScreen6 #homeAct #homeActContainer div {
+  font-size: 16px;
+  line-height: 18px;
+}
+#homeScreen6 #homeAge {
+  padding: 0 0 25px 0;
+  height: 120px;
+}
+#homeScreen6 #homeHob {
+  height: 200px;
+}
+#homeScreen6 #homeAct #homeActContainer {
+  padding-top: 50px;
+}
+
+.portfolioWork p {
+  padding : 3px 5px;
+  width : 98.5%;
+  font-size : 14px;
+}

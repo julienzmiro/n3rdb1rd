@@ -1,0 +1,39 @@
+title: Persona, one of the most useful design tool
+date: 2011/12/23
+pinit: false
+>-------<
+![Persona, one of the most useful design tool](/images/journal/persona-design-tool/persona.png)  
+I already talked about personas in one of my previous articles. If you already read it, you know that I consider personas as the most important designer's tool.
+
+I can see 2 main values in persona :  
+
+-    It enables to **lead the designer in every choice that he makes** (cf [my design guidelines](http://www.n3rdb1rd.com/journal/my-design-guidelines "my design guidelines")).  
+-    It is an amazing tool when you have to communicate internaly. It helps to **join stakeholders around practical questions**, and to justify or explain decisions.
+
+##You said... persona ?
+Persona is a tool that have been "created" by Alan Cooper.  
+By reading [the origin of personas](http://www.amazon.fr/Inmates-Are-Running-Asylum-Products/dp/0672326140/ "The origin of personas") we can clearly recognize the 2 needs behind the 2 values described above : the need to guide the design process with users' behaviors, and the need to communicate and join people around practical issues.
+
+Imagine a persona as an archetypal user of a product. Defining persona consists in **designing several typical users who should represent some important groups of behaviors on a product.**
+
+The problem is that when you talk about "users" of a product, you deal with a very vague concept and it is difficult to inspire : to inspire the design team in its work, or to inspire stakeholders in meetings and when explaining a design.  
+On the other side, you can not define every single user of a product, and use this level of detail to design : it is an expensive process, and it is clearly impossible to design a product suited for every single user.
+
+However, **it is totally conceivable to design a product for 3 or 4 users that represent the main uses of your product.**  
+I think that this is almost the same process that is used in physics for instance : it is very difficult to build theories with complex and diverse entities (human body for instance), so physicists simplify things in order to handle them more easily. Hundreds of human bodies walking in a mall become simple spheres that can be used to modelize crowd moves.
+
+##I am convinced.. how should I start ?
+There is probably a lot of methods to work with personas.
+
+On my side, here is what I learned about personas definition :
+
+-    Your personas should inspire (designers, stakeholders,...). So they have to be **credible.** In order to do that, everybody should "play the game" and avoid everything that could bring the persona down to a simple tool. **You should consider your personas as real persons** because other people will not act the same way if they are clearly aware to talk about a tool, as if they talk about persons (even if subconsciously they know that this person does not exist).  
+-    Persona definition should be led by a designer, but **it should involve anybody who will potentially use it** (designers, developers, product managers, marketing teams,...). **It is easier to "believe" in personas when taking part of its design.** It is easier to understand why Chuck is Chuck, and you will reduce risks to meet people reluctant to this concept.  
+-    Persona definition should be "based on data". In order to make a credible and living persona, it is important to take every decision based on data (analytics, metrics, users' interviews,...).  
+-    The first thing to do when designing personas is to define 2 or 3 user goals. These goals will become the core of your persona. This is what allow you to establish a product-persona binding.  
+-    Personas are almost all the time dedicated to one product. So if you design several products for the same company, you will have to define personas for each product.  
+-    The material and the way you show your personas are also very important. You can not expect the same result with a simple list of properties on a white paper than with a document with photos, highlights on the most important points, and meaningful texts that allow people to clearly imagine the person behind the persona. You have to build a story until the end (even in the way you deliver the result).  
+-    The number of necessary personas may vary... the less you have personas, the more each persona will be efficient (it will be more memorable). But you should not hesitate to create more personas if you think that they could really reflect a particular and important behavior.  
+-    As in many exercises, it is important not to scatter the energy and to stay focused on what is really important. **The more your persona will be detailed, the more each information will be weaked.** On the other side, you have to remember that your persona will have to live. So it is a difficult balance to find between what is necessary in order to define a product user, what is useful in order to make this persona credible, and what is dispensable.
+
+But the most important is that defining personas is just a start, **the most difficult part is to try to make of these personas some inevitable elements of every design processes, and of every design communication.**

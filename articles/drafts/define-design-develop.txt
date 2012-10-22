@@ -1,0 +1,51 @@
+title: Define, design, develop
+date: 2011/12/21
+>-------<
+Sometimes, it can be interesting to think a bit on how our work interact with other fields in a company workflow.  
+While I was designing in different contexts, I met a lot of issues in the way a company dealt with its design team. But I think that almost all the time, these issues are based on a weak separation of work phases.
+
+I can see 2 main fields working around the design work, so I will try to explain my vision (which is only a designer point of view) on these 3 phases : the product definition, the product design, and the product development.
+
+##1 - Product definition
+![Product definition](/images/journal/define-design-do/define.png)
+From a designer point of view, we can say that this phase consist in defining **WHAT** is the product (or the project part of a product) : what is the product scope, what are the main goals, what are the key datas that we will use to measure the success of this product,...
+
+We define questions that the design phase will have to work on.
+
+An important part of this phase deals with ideas : **how create a context that will help ideas to rise and grow**.  
+This phase is generally handled by a product manager, but ideas could be in the mind of everybody (in the company and even outside). So the product manager (or any other person responsible of this phase) should find a good way to pull ideas and to make it easy for everybody to respond to an idea and to make this idea evolve in real innovations.
+
+Here, the expert work is to select ideas, prioritize them, estimate their value and the investment that they require,...  
+I do not think that we should talk about "features". Features should only be word used by users of a product. In this phase, I think that it is better to talk about "user's needs". And at the end of this phase, we should be have identified what user's needs we want to target.
+
+The risk during this phase is to try to find solutions when the questions are not defined and without the tools, skills and processes of a real design team.
+
+##2 - Product design
+![Product design](/images/journal/define-design-do/design.png)
+If the product definition is about defining WHAT is a product, here the goal is to design **HOW** will be the product (or how we will offer it to our users). We have to find solutions to the questions previously defined. We have to find a way to make the definition of the product meet user's needs.
+
+I think that almost every designer already worked on unclear or incomplete briefs. This situation can leads to very difficult situations. This is why the first thing to do, when starting a design, is always to be sure that everybody agreed on the product definition, and that all required informations are inside this definition.
+
+I will of course talk about the design phase in more details in other articles, but the idea here is simply to **find solutions to offer what have been defined before**.
+
+You can of course invite other people to design (but you should really think on the good way to do this... take care for instance of giant brainstorming, or on the famous "design in comitee"), but everybody should be aware that **design is not only about imagining solutions, it is above all proof these solutions** (against a context, users, targets, constraints,....).
+
+This is why the expert role is so important. Beyond his knowledge about design, or user experience, **the designer have tools, methods, and processes that will help to choose the best solutions** (personas, user tests, mockups, prototypes,...).
+
+##3 - Product development
+![Product development](/images/journal/define-design-do/do.png)
+This probably the phase that is the less concerned with issues of separation.  
+Indeed, if it is very common to find people that will try to find solutions (every think that he could design because everybody is a user and think that it is enough to know how a product should be designed), it is more rare to find people interested in develoment.
+
+**The developer evolve in a privileged sanctuary that nobody dares to approach**. I am not talking about discussions on delivery dates, or level of efforts, but on the way that a product will be developped : choices of architecture, tools and methods that are used, frameworks,...
+
+Yet, development issues are very interesting... well ok this is subjectiv, but these issues are at least very important and they could completely change the orientation of a product. Who never heard from a dev team "This has not been planned to do this" ?  
+**The most important mistake to do here is to ignore how a product will be developped** and to realize how much this phase is important only when it impacts definition or design (because development become a strong constraint).  
+When you are at this point, you enter in a develoment-driven process... and it becomes very difficult to reach the results of a user-driven approach.
+
+Another important part of this phase is about "integration" or "front end development" (html / css / javascript for instance). It is important to realize that **this is the last step before delivering your product to your users**.  
+You can spend any amount of money to define innovating products, or to design the best concepts, if you are not able to implement these decisions correctly, you are just wasting resources.  
+Unfortunatly, this work is under considered and we often meet products with a weak finishing that can completely change the impression on the user.
+
+##Conclusion
+I know that there is a lot of way to think about a web product workflow, but I noticed that almost every problem comes from a weak separation of areas of responsabilities : Trying to find solutions before defining questions, follow vague decisions, ignore develoment choices, let everybody design on his side,... You do not have to be strict and procedural, but if everybody is aware of these areas and why they are importants, you can avoid a lot of mistakes.

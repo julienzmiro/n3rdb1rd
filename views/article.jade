@@ -1,0 +1,7 @@
+article
+	h1= title
+	span.date= article.date
+	- var content = markdown.toHTML(article.body)
+	!= content
+a.twitter-share-button(href="https://twitter.com/share", data-lang="en", data-count="none", data-url="http://www.n3rdb1rd.com/journal/" + article.path, data-text=article.title + " | ") Tweet
+br.clear
